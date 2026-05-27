@@ -1,16 +1,17 @@
 -- stock_plugin.lua
-local stock_data = require("lua/stock_data")
+local stock_data = require("stock_data")
 
 local stock_plugin = {}
 local stock_index = {}
 
 -- 加载股票索引
 local function init_index()
-    -- 使用 pcall 避免加载失败导致插件崩溃
-    local status, stocks = pcall(require, "lua/all_stocks")
+    local status, stocks = pcall(require, "all_stocks")
     if status and type(stocks) == "table" then
         for _, stock in ipairs(stocks) do
-            stock_index[stock.name] = stock.code
+            -- 去除可能的空格，确保匹配鲁棒性
+            local name = stock.name:gsub("%s+", "")
+            stock_index[name] = stock.code
         end
     end
 end
@@ -18,39 +19,45 @@ end
 init_index()
 
 --- 股票行情过滤器
---- @param input Translation
---- @param env Environment
 function stock_plugin.stock_filter(input, env)
     local count = 0
-    local first_cand = nil
     local stock_cand = nil
 
     for cand in input:iter() do
         count = count + 1
         
-        -- 识别第一个候选词是否为股票名称
+        -- 仅匹配第一个候选词
         if count == 1 then
-            local code = stock_index[cand.text]
+            -- 同时也去除候选词文本中的空格进行匹配
+            local clean_text = cand.text:gsub("%s+", "")
+            local code = stock_index[clean_text]
+            
             if code then
-                local results = stock_data.fetch({code})
-                if results and #results > 0 then
+                local status, results = pcall(stock_data.fetch, {code})
+                if status and results and #results > 0 then
                     local data = results[1]
                     local sign = data.percent > 0 and "+" or ""
-                    -- 格式：价格  涨跌幅 (例如：93.45  -2.5%)
                     local info = string.format("%.2f  %s%.2f%%", data.price, sign, data.percent)
                     
-                    -- 创建行情候选词，显示在第 2 位
+                    -- 创建行情候选词
                     stock_cand = Candidate("stock", cand.start, cand._end, info, " [股票]")
                 end
             end
+            
             yield(cand)
-            -- 如果有股票行情，紧接着 yield
             if stock_cand then
                 yield(stock_cand)
             end
         else
-            -- 其他候选词原样输出
             yield(cand)
+        end
+        
+        -- 性能优化：处理完前 20 个候选词后停止介入，避免长列表卡顿
+        if count > 20 then
+            for rest in input:iter() do
+                yield(rest)
+            end
+            break
         end
     end
 end

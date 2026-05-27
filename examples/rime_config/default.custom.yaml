@@ -1,0 +1,6 @@
+# default.custom.yaml 示例
+# 适用于全局配置
+
+patch:
+  # 在过滤器列表末尾添加股票查询插件
+  "engine/filters/@next": lua_filter@stock_filter
