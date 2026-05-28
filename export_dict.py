@@ -11,9 +11,53 @@ except ImportError:
     print("错误: 请先安装 pypinyin 库 (pip install pypinyin)")
     sys.exit(1)
 
-def generate_pinyin_variants(name):
+# 小鹤双拼映射表
+FLYPY_INITIALS = {'zh': 'v', 'ch': 'i', 'sh': 'u'}
+FLYPY_FINALS = {
+    'iu': 'q', 'ei': 'w', 'uan': 'r', 'ue': 't', 've': 't', 'un': 'y', 'uo': 'o', 'ie': 'p',
+    'ong': 's', 'iong': 's', 'ai': 'd', 'en': 'f', 'eng': 'g', 'ang': 'h', 'an': 'j',
+    'ing': 'k', 'uai': 'k', 'iang': 'l', 'uang': 'l', 'ou': 'z', 'ia': 'x', 'ua': 'x',
+    'ao': 'c', 'ui': 'v', 'in': 'b', 'iao': 'n', 'ian': 'm', 'ü': 'v', 'v': 'v'
+}
+FLYPY_ZERO_INITIALS = {
+    'a': 'aa', 'ai': 'ai', 'an': 'an', 'ang': 'ah', 'ao': 'ao',
+    'e': 'ee', 'ei': 'ei', 'en': 'en', 'eng': 'eg', 'er': 'er',
+    'o': 'oo', 'ou': 'ou'
+}
+
+def pinyin_to_flypy(pinyin_list):
     """
-    为股票名称生成拼音全拼和简拼
+    将全拼列表转换为小鹤双拼编码
+    """
+    res = []
+    for s in pinyin_list:
+        if s in FLYPY_ZERO_INITIALS:
+            res.append(FLYPY_ZERO_INITIALS[s])
+            continue
+        
+        initial = ""
+        # 匹配声母
+        for i in ['zh', 'ch', 'sh', 'b', 'p', 'm', 'f', 'd', 't', 'n', 'l', 'g', 'k', 'h', 'j', 'q', 'x', 'r', 'z', 'c', 's', 'y', 'w']:
+            if s.startswith(i):
+                initial = i
+                break
+        
+        final = s[len(initial):]
+        if not initial:
+            res.append(s)
+            continue
+            
+        code_i = FLYPY_INITIALS.get(initial, initial[0])
+        # 处理 ü 的特殊情况
+        if final == 'ü': final = 'v'
+        code_f = FLYPY_FINALS.get(final, final)
+        res.append(code_i + code_f)
+    return "".join(res)
+
+def generate_pinyin_variants(name, mode='full'):
+    """
+    为股票名称生成拼音变体
+    mode: 'full' (全拼) 或 'flypy' (小鹤双拼)
     """
     # 彻底去除名称中的所有空格，并转为半写（处理全角字符）
     clean_name = name.replace(" ", "").replace("　", "")
@@ -26,12 +70,17 @@ def generate_pinyin_variants(name):
     if not pinyin_name:
         return "", ""
 
-    # 全拼
-    full_pinyin = "".join([i[0] for i in pinyin(pinyin_name, style=Style.NORMAL)])
-    # 简拼 (首字母)
+    # 获取全拼列表
+    py_list = [i[0] for i in pinyin(pinyin_name, style=Style.NORMAL)]
+    
     initials = "".join([i[0][0] for i in pinyin(pinyin_name, style=Style.FIRST_LETTER)])
     
-    return full_pinyin.lower(), initials.lower()
+    if mode == 'flypy':
+        full = pinyin_to_flypy(py_list)
+    else:
+        full = "".join(py_list)
+    
+    return full.lower(), initials.lower()
 
 def parse_lua_file(file_path):
     """
@@ -54,53 +103,48 @@ def parse_lua_file(file_path):
     
     return stocks
 
-def export_to_dict(stocks, output_path):
+def export_to_dict(stocks, output_path, dict_name, base_table, mode='full'):
     """
-    导出为 Rime 扩展词库格式 (luna_pinyin.extended.dict.yaml)
+    导出为 Rime 扩展词库格式
     """
-    header = """# Rime dictionary
+    header = f"""# Rime dictionary
 # encoding: utf-8
 #
-# 自动生成的股票扩展词库
-# 包含基础词库 (luna_pinyin) 和股票数据
+# 自动生成的股票扩展词库 ({mode})
+# 包含基础词库 ({base_table}) 和股票数据
 # 来源: lua/all_stocks.lua
 
 ---
-name: luna_pinyin.extended
+name: {dict_name}
 version: "1.0"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
-  - luna_pinyin
+  - {base_table}
 ...
 
 """
     
     entries = []
-    print(f"正在为 {len(stocks)} 个股票生成词库条目...")
+    print(f"正在为 {len(stocks)} 个股票生成词库条目 ({mode})...")
     
     for stock in stocks:
         name = stock['name']
         code = stock['code']
         
-        # 1. 原始名称与代码的映射 (支持直接输入代码)
-        # 去除代码中的市场前缀 (如 sz000001 -> 000001)
-        pure_code = re.sub(r'^[a-z]+', '', code)
+        # 生成拼音变体
+        full, initials = generate_pinyin_variants(name, mode=mode)
         
-        # 2. 生成拼音
-        full, initials = generate_pinyin_variants(name)
-        
-        # 写入词库： 词语 <tab> 编码
-        # 我们为同一个股票提供多种触发方式
-        if initials:
-            entries.append(f"{name}\t{initials}")
-        if full:
-            entries.append(f"{name}\t{full}")
-        
-        # 同时也允许直接输入代码触发
-        entries.append(f"{name}\t{pure_code}")
-        # 以及带市场前缀的代码
-        entries.append(f"{name}\t{code}")
+        if mode == 'flypy':
+            # 小鹤双拼模式：只保留双拼全码
+            if full:
+                entries.append(f"{name}\t{full}")
+        else:
+            # 全拼模式：只保留简拼和全拼
+            if initials:
+                entries.append(f"{name}\t{initials}")
+            if full:
+                entries.append(f"{name}\t{full}")
 
     # 去重并保持顺序
     seen = set()
@@ -117,18 +161,23 @@ import_tables:
 
 def main():
     lua_file = 'lua/all_stocks.lua'
-    dict_file = 'luna_pinyin.extended.dict.yaml'
-    
-    print(f"开始导出: {lua_file} -> {dict_file}")
     
     stocks = parse_lua_file(lua_file)
     if not stocks:
         print("未发现任何股票数据。")
         return
 
-    export_to_dict(stocks, dict_file)
-    print(f"成功! 已生成词库文件: {dict_file}")
-    print("提示: 请将该文件放入 Rime 用户目录，并在方案中引用它。")
+    # 1. 导出全拼扩展词库
+    luna_dict = 'luna_pinyin.extended.dict.yaml'
+    export_to_dict(stocks, luna_dict, 'luna_pinyin.extended', 'luna_pinyin', mode='full')
+    print(f"成功! 已生成全拼词库文件: {luna_dict}")
+
+    # 2. 导出小鹤双拼扩展词库
+    flypy_dict = 'double_pinyin_flypy.extended.dict.yaml'
+    export_to_dict(stocks, flypy_dict, 'double_pinyin_flypy.extended', 'luna_pinyin', mode='flypy')
+    print(f"成功! 已生成小鹤双拼词库文件: {flypy_dict}")
+
+    print("\n提示: 请将生成的 .dict.yaml 文件放入 Rime 用户目录，并在方案中引用它们。")
 
 if __name__ == "__main__":
     main()

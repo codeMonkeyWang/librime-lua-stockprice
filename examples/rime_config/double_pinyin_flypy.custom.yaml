@@ -9,4 +9,4 @@ patch:
   # 推荐使用「追加模式」：
   # 1) 将 luna_pinyin.extended.dict.yaml 放入用户目录
   # 2) 确保配置如下：
-  # "translator/dictionary": luna_pinyin.extended
+  "translator/dictionary": double_pinyin_flypy.extended

@@ -49,7 +49,7 @@ patch:
 为了能通过拼音或代码快速搜索到股票，建议生成专门的 Rime 词库文件。
 
 ### 导出词库
-本项目提供了一个 Python 脚本，可以将 `lua/all_stocks.lua` 中的数据一键导出为包含基础词库的扩展词库文件 `luna_pinyin.extended.dict.yaml`。
+本项目提供了一个 Python 脚本，可以将 `lua/all_stocks.lua` 中的数据一键导出为包含基础词库的扩展词库文件。
 
 1. **安装依赖**：
    ```bash
@@ -59,15 +59,17 @@ patch:
    ```bash
    python export_dict.py
    ```
-   执行后将生成 `luna_pinyin.extended.dict.yaml` 文件。
+   执行后将自动生成以下两个文件：
+   - `luna_pinyin.extended.dict.yaml`：适用于全拼方案。
+   - `double_pinyin_flypy.extended.dict.yaml`：适用于小鹤双拼方案。
 
 ### 配置词库
-为了不破坏您原有的输入法词库，该脚本生成的词库已自动配置为 **“扩展词库”** 模式。
+为了不破坏您原有的输入法词库，该脚本生成的词库已自动配置为 **“扩展词库”** 模式，并自动包含了基础词库（`import_tables: [luna_pinyin]`）。
 
 #### 1. 部署扩展词库文件
-将生成的 `luna_pinyin.extended.dict.yaml` 复制到 Rime 用户配置目录。
-
-*如果您使用的是小鹤双拼或其他基于 luna_pinyin 的方案，该文件同样适用。您可以在 `examples/rime_config/` 目录下找到对应的方案配置示例。*
+将生成的对应词库文件复制到 Rime 用户配置目录。
+- **全拼用户**：复制 `luna_pinyin.extended.dict.yaml`。
+- **小鹤双拼用户**：复制 `double_pinyin_flypy.extended.dict.yaml`。
 
 #### 2. 在方案补丁中引用
 修改您的方案补丁文件（如 `luna_pinyin.custom.yaml` 或 `double_pinyin_flypy.custom.yaml`）：
@@ -76,8 +78,8 @@ patch:
 patch:
   # 注册过滤器以显示行情
   "engine/filters/@next": lua_filter@stock_filter
-  # 切换到扩展词库
-  "translator/dictionary": luna_pinyin.extended
+  # 切换到对应的扩展词库
+  "translator/dictionary": luna_pinyin.extended  # 小鹤双拼用户改为 double_pinyin_flypy.extended
 ```
 
 ## 5. 依赖说明
