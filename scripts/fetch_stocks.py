@@ -3,8 +3,12 @@ import os
 import pandas as pd
 from dotenv import load_dotenv
 
+# 获取项目根目录
+base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 # 加载环境变量
-load_dotenv()
+dotenv_path = os.path.join(base_dir, '.env')
+load_dotenv(dotenv_path)
 
 def format_code(ts_code):
     """
@@ -24,7 +28,7 @@ def format_code(ts_code):
 
 def fetch_all_stocks():
     # 从环境变量获取 token
-    token = os.getenv('TUSHARE_TOKEN')
+    token = os.getenv('')
     if not token:
         print("错误: 请在 .env 文件中设置 TUSHARE_TOKEN (可以参考 .env.example)")
         return None
@@ -114,7 +118,7 @@ def main():
         
         lua_table = to_lua_table(df)
         
-        output_file = 'lua/all_stocks.lua'
+        output_file = os.path.join(base_dir, 'lua', 'all_stocks.lua')
         with open(output_file, 'w', encoding='utf-8') as f:
             f.write(lua_table)
         

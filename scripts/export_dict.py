@@ -160,7 +160,9 @@ import_tables:
         f.write("\n")
 
 def main():
-    lua_file = 'lua/all_stocks.lua'
+    # 获取项目根目录
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    lua_file = os.path.join(base_dir, 'lua', 'all_stocks.lua')
     
     stocks = parse_lua_file(lua_file)
     if not stocks:
@@ -168,12 +170,12 @@ def main():
         return
 
     # 1. 导出全拼扩展词库
-    luna_dict = 'luna_pinyin.extended.dict.yaml'
+    luna_dict = os.path.join(base_dir, 'luna_pinyin.extended.dict.yaml')
     export_to_dict(stocks, luna_dict, 'luna_pinyin.extended', 'luna_pinyin', mode='full')
     print(f"成功! 已生成全拼词库文件: {luna_dict}")
 
     # 2. 导出小鹤双拼扩展词库
-    flypy_dict = 'double_pinyin_flypy.extended.dict.yaml'
+    flypy_dict = os.path.join(base_dir, 'double_pinyin_flypy.extended.dict.yaml')
     export_to_dict(stocks, flypy_dict, 'double_pinyin_flypy.extended', 'luna_pinyin', mode='flypy')
     print(f"成功! 已生成小鹤双拼词库文件: {flypy_dict}")
 

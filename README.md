@@ -53,11 +53,11 @@ patch:
 
 1. **安装依赖**：
    ```bash
-   pip install -r requirements.txt
+   pip install -r scripts/requirements.txt
    ```
 2. **执行导出**：
    ```bash
-   python export_dict.py
+   python scripts/export_dict.py
    ```
    执行后将自动生成以下两个文件：
    - `luna_pinyin.extended.dict.yaml`：适用于全拼方案。
