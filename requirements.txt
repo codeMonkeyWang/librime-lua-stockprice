@@ -1,3 +1,4 @@
 tushare
 pandas
 python-dotenv
+pypinyin

@@ -2,5 +2,9 @@
 # 适用于全局配置
 
 patch:
-  # 在过滤器列表末尾添加股票查询插件
+  # 1. 注册 Lua 过滤器：在过滤器列表末尾添加股票查询插件
   "engine/filters/@next": lua_filter@stock_filter
+
+  # 2. (可选) 词库配置：
+  # 注意：在 default.custom.yaml 中配置此项可能不会生效，
+  # 建议在具体的方案 custom.yaml（如 luna_pinyin.custom.yaml）中配置。

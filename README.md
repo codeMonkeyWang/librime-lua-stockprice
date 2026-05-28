@@ -45,12 +45,49 @@ patch:
 
 修改完成后，执行 Rime 的 **“重新部署 / Deploy”** 操作即可生效。
 
-## 4. 依赖说明
-本插件依赖以下系统命令（macOS 通常自带）：
+## 4. 词库导出与搜索增强
+为了能通过拼音或代码快速搜索到股票，建议生成专门的 Rime 词库文件。
+
+### 导出词库
+本项目提供了一个 Python 脚本，可以将 `lua/all_stocks.lua` 中的数据一键导出为包含基础词库的扩展词库文件 `luna_pinyin.extended.dict.yaml`。
+
+1. **安装依赖**：
+   ```bash
+   pip install -r requirements.txt
+   ```
+2. **执行导出**：
+   ```bash
+   python export_dict.py
+   ```
+   执行后将生成 `luna_pinyin.extended.dict.yaml` 文件。
+
+### 配置词库
+为了不破坏您原有的输入法词库，该脚本生成的词库已自动配置为 **“扩展词库”** 模式。
+
+#### 1. 部署扩展词库文件
+将生成的 `luna_pinyin.extended.dict.yaml` 复制到 Rime 用户配置目录。
+
+*如果您使用的是小鹤双拼或其他基于 luna_pinyin 的方案，该文件同样适用。您可以在 `examples/rime_config/` 目录下找到对应的方案配置示例。*
+
+#### 2. 在方案补丁中引用
+修改您的方案补丁文件（如 `luna_pinyin.custom.yaml` 或 `double_pinyin_flypy.custom.yaml`）：
+
+```yaml
+patch:
+  # 注册过滤器以显示行情
+  "engine/filters/@next": lua_filter@stock_filter
+  # 切换到扩展词库
+  "translator/dictionary": luna_pinyin.extended
+```
+
+## 5. 依赖说明
+本插件依赖以下工具：
 - **curl**: 用于发送网络请求。
 - **iconv**: 用于处理 API 返回值的编码转换（GBK 转 UTF-8）。
+- **Python 3**: 用于执行数据抓取和词库导出脚本。
+- **pypinyin (Python库)**: 用于生成股票名称的拼音。
 
-## 5. 使用示例
+## 6. 使用示例
 输入股票名称，行情将紧跟在首个候选词之后：
 
 - **输入**：`pingan`
