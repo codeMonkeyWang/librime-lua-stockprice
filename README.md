@@ -1,6 +1,13 @@
-# Rime 股票行情插件 (rime-plugin-AH)
+# librime-lua-stockprice: Rime 股票行情插件
 
 这是一个为 Rime 输入法设计的 Lua 插件，能够在输入股票名称时，在候选词列表中实时显示该股票的最新价格及涨跌幅行情。
+
+## 0. 快速开始
+如果您还没有本项目，可以通过以下命令获取：
+```bash
+git clone git@github.com:codeMonkeyWang/librime-lua-stockprice.git
+cd librime-lua-stockprice
+```
 
 ## 1. 插件特性
 - **实时行情**：基于新浪财经 API 获取实时股票数据。
