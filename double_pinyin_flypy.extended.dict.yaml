@@ -17,9 +17,7 @@ import_tables:
 平安银行	pkanybhh	1000000
 平安银行	pkanybh	1000000
 万  科Ａ	wjke	1000000
-万  科Ａ	wjk	1000000
 *ST国华	gohx	1000000
-*ST国华	goh	1000000
 深振业Ａ	ufvfye	1000000
 深振业Ａ	ufvfy	1000000
 全新好	qrxbhc	1000000
@@ -29,15 +27,12 @@ import_tables:
 中国宝安	vsgobcan	1000000
 中国宝安	vsgobca	1000000
 *ST美丽	mwli	1000000
-*ST美丽	mwl	1000000
 深物业A	ufwuye	1000000
 深物业A	ufwuy	1000000
 南  玻Ａ	njbo	1000000
-南  玻Ａ	njb	1000000
 沙河股份	uaheguff	1000000
 沙河股份	uaheguf	1000000
 *ST康佳A	khjx	1000000
-*ST康佳A	khj	1000000
 深中华A	ufvshx	1000000
 深中华A	ufvsh	1000000
 深粮控股	ufllksgu	1000000
@@ -47,7 +42,6 @@ import_tables:
 深科技	ufkeji	1000000
 深科技	ufkej	1000000
 特  力Ａ	teli	1000000
-特  力Ａ	tel	1000000
 飞亚达	fwyada	1000000
 飞亚达	fwyad	1000000
 深圳能源	ufvfngyr	1000000
@@ -85,7 +79,6 @@ import_tables:
 方大集团	fhdajitr	1000000
 方大集团	fhdajit	1000000
 *ST皇庭	hltk	1000000
-*ST皇庭	hlt	1000000
 深 赛 格	ufsdge	1000000
 深 赛 格	ufsdg	1000000
 华锦股份	hxjbguff	1000000
@@ -109,7 +102,6 @@ import_tables:
 特发信息	tefaxbxi	1000000
 特发信息	tefaxbx	1000000
 ST海王	hdwh	1000000
-ST海王	hdw	1000000
 盐 田 港	yjtmgh	1000000
 盐 田 港	yjtmg	1000000
 深圳机场	ufvfjiih	1000000
@@ -189,7 +181,6 @@ TCL科技	clkej	1000000
 张家界	vhjxjp	1000000
 张家界	vhjxj	1000000
 ST晨鸣	ifmk	1000000
-ST晨鸣	ifm	1000000
 山东路桥	ujdsluqn	1000000
 山东路桥	ujdsluq	1000000
 武商集团	wuuhjitr	1000000
@@ -197,7 +188,6 @@ ST晨鸣	ifm	1000000
 国新健康	goxbjmkh	1000000
 国新健康	goxbjmk	1000000
 *ST生物	ugwu	1000000
-*ST生物	ugw	1000000
 京粮控股	jkllksgu	1000000
 京粮控股	jkllksg	1000000
 招金黄金	vcjbhljb	1000000
@@ -233,7 +223,6 @@ ST晨鸣	ifm	1000000
 学大教育	xtdajnyu	1000000
 学大教育	xtdajny	1000000
 柳    工	lqgs	1000000
-柳    工	lqg	1000000
 广弘控股	glhsksgu	1000000
 广弘控股	glhsksg	1000000
 冰山冷热	bkujlgre	1000000
@@ -329,7 +318,6 @@ ST晨鸣	ifm	1000000
 德龙汇能	delshvng	1000000
 德龙汇能	delshvn	1000000
 *ST宝实	bcui	1000000
-*ST宝实	bcu	1000000
 古井贡酒	gujkgsjq	1000000
 古井贡酒	gujkgsj	1000000
 东北制药	dsbwviyc	1000000
@@ -351,13 +339,10 @@ ST晨鸣	ifm	1000000
 阳光股份	yhglguff	1000000
 阳光股份	yhglguf	1000000
 *ST中迪	vsdi	1000000
-*ST中迪	vsd	1000000
 *ST西旅	xilv	1000000
-*ST西旅	xil	1000000
 焦作万方	jnzowjfh	1000000
 焦作万方	jnzowjf	1000000
 *ST美谷	mwgu	1000000
-*ST美谷	mwg	1000000
 中油资本	vsyzzibf	1000000
 中油资本	vsyzzib	1000000
 海螺新材	hdloxbcd	1000000
@@ -379,7 +364,6 @@ ST晨鸣	ifm	1000000
 顺发恒能	uyfahgng	1000000
 顺发恒能	uyfahgn	1000000
 ST三木	sjmu	1000000
-ST三木	sjm	1000000
 合金投资	hejbtzzi	1000000
 合金投资	hejbtzz	1000000
 英 力 特	yklite	1000000
@@ -389,9 +373,7 @@ ST三木	sjm	1000000
 茂化实华	mchxuihx	1000000
 茂化实华	mchxuih	1000000
 *ST万方	wjfh	1000000
-*ST万方	wjf	1000000
 ST西王	xiwh	1000000
-ST西王	xiw	1000000
 仁和药业	rfhoycye	1000000
 仁和药业	rfhoycy	1000000
 格力电器	gelidmqi	1000000
@@ -401,7 +383,6 @@ ST西王	xiw	1000000
 金岭矿业	jblkklye	1000000
 金岭矿业	jblkkly	1000000
 *ST金科	jbke	1000000
-*ST金科	jbk	1000000
 中钨高新	vswugcxb	1000000
 中钨高新	vswugcx	1000000
 珠海中富	vuhdvsfu	1000000
@@ -413,9 +394,7 @@ ST西王	xiw	1000000
 湖北广电	hubwgldm	1000000
 湖北广电	hubwgld	1000000
 *ST荣控	rsks	1000000
-*ST荣控	rsk	1000000
 ST金鸿	jbhs	1000000
-ST金鸿	jbh	1000000
 盈方微	ykfhww	1000000
 盈方微	ykfhw	1000000
 上峰水泥	uhfguvni	1000000
@@ -423,7 +402,6 @@ ST金鸿	jbh	1000000
 智度股份	viduguff	1000000
 智度股份	viduguf	1000000
 ST海龙	hdls	1000000
-ST海龙	hdl	1000000
 襄阳轴承	xlyhvzig	1000000
 襄阳轴承	xlyhvzi	1000000
 大连友谊	dalmyzyi	1000000
@@ -445,7 +423,6 @@ ST海龙	hdl	1000000
 宝新能源	bcxbngyr	1000000
 宝新能源	bcxbngy	1000000
 *ST亚太	yatd	1000000
-*ST亚太	yat	1000000
 惠天热电	hvtmredm	1000000
 惠天热电	hvtmred	1000000
 滨海能源	bbhdngyr	1000000
@@ -453,7 +430,6 @@ ST海龙	hdl	1000000
 炼石航空	lmuihhks	1000000
 炼石航空	lmuihhk	1000000
 ST沈化	ufhx	1000000
-ST沈化	ufh	1000000
 模塑科技	mosukeji	1000000
 模塑科技	mosukej	1000000
 厦门信达	xxmfxbda	1000000
@@ -473,7 +449,6 @@ ST沈化	ufh	1000000
 贝瑞基因	bwrvjiyb	1000000
 贝瑞基因	bwrvjiy	1000000
 ST京蓝	jklj	1000000
-ST京蓝	jkl	1000000
 锦龙股份	jblsguff	1000000
 锦龙股份	jblsguf	1000000
 国投丰乐	gotzfgle	1000000
@@ -499,7 +474,6 @@ ST京蓝	jkl	1000000
 京东方Ａ	jkdsfh	1000000
 京东方Ａ	jkdsf	1000000
 鲁  泰Ａ	lutd	1000000
-鲁  泰Ａ	lut	1000000
 冠捷科技	grjpkeji	1000000
 冠捷科技	grjpkej	1000000
 国元证券	goyrvgqr	1000000
@@ -513,7 +487,6 @@ ST京蓝	jkl	1000000
 罗 牛 山	lonquj	1000000
 罗 牛 山	lonqu	1000000
 *ST中地	vsdi	1000000
-*ST中地	vsd	1000000
 北方铜业	bwfhtsye	1000000
 北方铜业	bwfhtsy	1000000
 航发控制	hhfaksvi	1000000
@@ -525,7 +498,6 @@ ST京蓝	jkl	1000000
 锌业股份	xbyeguff	1000000
 锌业股份	xbyeguf	1000000
 *ST西发	xifa	1000000
-*ST西发	xif	1000000
 漳州发展	vhvzfavj	1000000
 漳州发展	vhvzfav	1000000
 山西高速	ujxigcsu	1000000
@@ -575,7 +547,6 @@ ST京蓝	jkl	1000000
 盐湖股份	yjhuguff	1000000
 盐湖股份	yjhuguf	1000000
 *ST华闻	hxwf	1000000
-*ST华闻	hxw	1000000
 英洛华	yklohx	1000000
 英洛华	ykloh	1000000
 凯撒旅业	kdsalvye	1000000
@@ -615,9 +586,7 @@ ST京蓝	jkl	1000000
 岳阳兴长	ytyhxkvh	1000000
 岳阳兴长	ytyhxkv	1000000
 *ST节能	jpng	1000000
-*ST节能	jpn	1000000
 ST京机	jkji	1000000
-ST京机	jkj	1000000
 山东海化	ujdshdhx	1000000
 山东海化	ujdshdh	1000000
 超声电子	icugdmzi	1000000
@@ -625,7 +594,6 @@ ST京机	jkj	1000000
 太钢不锈	tdghbuxq	1000000
 太钢不锈	tdghbux	1000000
 *ST启环	qihr	1000000
-*ST启环	qih	1000000
 东莞控股	dsgrksgu	1000000
 东莞控股	dsgrksg	1000000
 天音控股	tmybksgu	1000000
@@ -639,7 +607,6 @@ ST京机	jkj	1000000
 秦川机床	qbirjiil	1000000
 秦川机床	qbirjii	1000000
 *ST发展	favj	1000000
-*ST发展	fav	1000000
 国安股份	goanguff	1000000
 国安股份	goanguf	1000000
 承德露露	igdelulu	1000000
@@ -663,7 +630,6 @@ ST京机	jkj	1000000
 安凯客车	ankdkeie	1000000
 安凯客车	ankdkei	1000000
 张  裕Ａ	vhyu	1000000
-张  裕Ａ	vhy	1000000
 电投绿能	dmtzlvng	1000000
 电投绿能	dmtzlvn	1000000
 新 希 望	xbxiwh	1000000
@@ -711,19 +677,15 @@ ST京机	jkj	1000000
 新洋丰	xbyhfg	1000000
 新洋丰	xbyhf	1000000
 ST云动	yyds	1000000
-ST云动	yyd	1000000
 厦门港务	xxmfghwu	1000000
 厦门港务	xxmfghw	1000000
 浙商中拓	veuhvsto	1000000
 浙商中拓	veuhvst	1000000
 ST景峰	jkfg	1000000
-ST景峰	jkf	1000000
 *ST数源	uuyr	1000000
-*ST数源	uuy	1000000
 大亚圣象	dayaugxl	1000000
 大亚圣象	dayaugx	1000000
 *ST广糖	glth	1000000
-*ST广糖	glt	1000000
 泸天化	lutmhx	1000000
 泸天化	lutmh	1000000
 钱江摩托	qmjlmoto	1000000
@@ -751,7 +713,6 @@ ST景峰	jkf	1000000
 中钢国际	vsghgoji	1000000
 中钢国际	vsghgoj	1000000
 *ST兰黄	ljhl	1000000
-*ST兰黄	ljh	1000000
 中粮科技	vsllkeji	1000000
 中粮科技	vsllkej	1000000
 中 关 村	vsgrcy	1000000
@@ -807,7 +768,6 @@ ST景峰	jkf	1000000
 中科三环	vskesjhr	1000000
 中科三环	vskesjh	1000000
 *ST中基	vsji	1000000
-*ST中基	vsj	1000000
 佛塑科技	fusukeji	1000000
 佛塑科技	fusukej	1000000
 山金国际	ujjbgoji	1000000
@@ -1085,7 +1045,6 @@ C惠康科技	chvkhkej	1000000
 华邦健康	hxbhjmkh	1000000
 华邦健康	hxbhjmk	1000000
 ST德豪	dehc	1000000
-ST德豪	deh	1000000
 精工科技	jkgskeji	1000000
 精工科技	jkgskej	1000000
 华兰生物	hxljugwu	1000000
@@ -1119,7 +1078,6 @@ ST德豪	deh	1000000
 海特高新	hdtegcxb	1000000
 海特高新	hdtegcx	1000000
 ST易购	yigz	1000000
-ST易购	yig	1000000
 航天电器	hhtmdmqi	1000000
 航天电器	hhtmdmq	1000000
 山东威达	ujdswwda	1000000
@@ -1181,13 +1139,11 @@ ST易购	yig	1000000
 德美化工	demwhxgs	1000000
 德美化工	demwhxg	1000000
 ST得润	dery	1000000
-ST得润	der	1000000
 横店东磁	hgdmdsci	1000000
 横店东磁	hgdmdsc	1000000
 中钢天源	vsghtmyr	1000000
 中钢天源	vsghtmy	1000000
 *ST威尔	wwer	1000000
-*ST威尔	wwe	1000000
 云南旅游	yynjlvyz	1000000
 云南旅游	yynjlvy	1000000
 广东建工	gldsjmgs	1000000
@@ -1219,7 +1175,6 @@ ST得润	der	1000000
 沙钢股份	uaghguff	1000000
 沙钢股份	uaghguf	1000000
 *ST星光	xkgl	1000000
-*ST星光	xkg	1000000
 大港股份	daghguff	1000000
 大港股份	daghguf	1000000
 太阳纸业	tdyhviye	1000000
@@ -1231,7 +1186,6 @@ ST得润	der	1000000
 金 螳 螂	jbthlh	1000000
 金 螳 螂	jbthl	1000000
 ST万邦	wjbh	1000000
-ST万邦	wjb	1000000
 孚日股份	furiguff	1000000
 孚日股份	furiguf	1000000
 海鸥住工	hdouvugs	1000000
@@ -1267,7 +1221,6 @@ ST万邦	wjb	1000000
 广东鸿图	gldshstu	1000000
 广东鸿图	gldshst	1000000
 ST能特	ngte	1000000
-ST能特	ngt	1000000
 广博股份	glboguff	1000000
 广博股份	glboguf	1000000
 恒宝股份	hgbcguff	1000000
@@ -1281,7 +1234,6 @@ ST能特	ngt	1000000
 沧州明珠	chvzmkvu	1000000
 沧州明珠	chvzmkv	1000000
 ST兴化	xkhx	1000000
-ST兴化	xkh	1000000
 三钢闽光	sjghmbgl	1000000
 三钢闽光	sjghmbg	1000000
 威海广泰	wwhdgltd	1000000
@@ -1303,7 +1255,6 @@ ST兴化	xkh	1000000
 科陆电子	keludmzi	1000000
 科陆电子	keludmz	1000000
 ST汇洲	hvvz	1000000
-ST汇洲	hvv	1000000
 梦网科技	mgwhkeji	1000000
 梦网科技	mgwhkej	1000000
 天邦食品	tmbhuipb	1000000
@@ -1391,7 +1342,6 @@ TCL中环	clvsh	1000000
 东方锆业	dsfhgcye	1000000
 东方锆业	dsfhgcy	1000000
 ST惠程	hvig	1000000
-ST惠程	hvi	1000000
 智光电气	vigldmqi	1000000
 智光电气	vigldmq	1000000
 芭田股份	batmguff	1000000
@@ -1405,7 +1355,6 @@ ST惠程	hvi	1000000
 游族网络	yzzuwhlo	1000000
 游族网络	yzzuwhl	1000000
 *ST东智	dsvi	1000000
-*ST东智	dsv	1000000
 江特电机	jltedmji	1000000
 江特电机	jltedmj	1000000
 御银股份	yuybguff	1000000
@@ -1441,7 +1390,6 @@ ST惠程	hvi	1000000
 融捷股份	rsjpguff	1000000
 融捷股份	rsjpguf	1000000
 ST如意	ruyi	1000000
-ST如意	ruy	1000000
 武汉凡谷	wuhjfjgu	1000000
 武汉凡谷	wuhjfjg	1000000
 岩山科技	yjujkeji	1000000
@@ -1451,11 +1399,8 @@ ST如意	ruy	1000000
 证通电子	vgtsdmzi	1000000
 证通电子	vgtsdmz	1000000
 ST嘉应	jxyk	1000000
-ST嘉应	jxy	1000000
 *ST东晶	dsjk	1000000
-*ST东晶	dsj	1000000
 *ST交投	jntz	1000000
-*ST交投	jnt	1000000
 九鼎新材	jqdkxbcd	1000000
 九鼎新材	jqdkxbc	1000000
 金风科技	jbfgkeji	1000000
@@ -1469,7 +1414,6 @@ ST嘉应	jxy	1000000
 海 利 得	hdlide	1000000
 海 利 得	hdlid	1000000
 *ST准油	vyyz	1000000
-*ST准油	vyy	1000000
 合肥城建	hefwigjm	1000000
 合肥城建	hefwigj	1000000
 达 意 隆	dayils	1000000
@@ -1477,13 +1421,11 @@ ST嘉应	jxy	1000000
 飞马国际	fwmagoji	1000000
 飞马国际	fwmagoj	1000000
 ST宏达	hsda	1000000
-ST宏达	hsd	1000000
 天融信	tmrsxb	1000000
 天融信	tmrsx	1000000
 大为股份	dawwguff	1000000
 大为股份	dawwguf	1000000
 *ST大立	dali	1000000
-*ST大立	dal	1000000
 诺 普 信	nopuxb	1000000
 诺 普 信	nopux	1000000
 三全食品	sjqruipb	1000000
@@ -1507,7 +1449,6 @@ ST宏达	hsd	1000000
 江南化工	jlnjhxgs	1000000
 江南化工	jlnjhxg	1000000
 *ST特迅	texy	1000000
-*ST特迅	tex	1000000
 合兴包装	hexkbcvl	1000000
 合兴包装	hexkbcv	1000000
 鸿博股份	hsboguff	1000000
@@ -1557,7 +1498,6 @@ ST宏达	hsd	1000000
 上海莱士	uhhdldui	1000000
 上海莱士	uhhdldu	1000000
 *ST智胜	viug	1000000
-*ST智胜	viu	1000000
 泰和新材	tdhexbcd	1000000
 泰和新材	tdhexbc	1000000
 海陆重工	hdluvsgs	1000000
@@ -1621,7 +1561,6 @@ ST宏达	hsd	1000000
 奇正藏药	qivgzhyc	1000000
 奇正藏药	qivgzhy	1000000
 *ST宇顺	yuuy	1000000
-*ST宇顺	yuu	1000000
 禾盛新材	heugxbcd	1000000
 禾盛新材	heugxbc	1000000
 遥望科技	ycwhkeji	1000000
@@ -1653,9 +1592,7 @@ ST宏达	hsd	1000000
 洋河股份	yhheguff	1000000
 洋河股份	yhheguf	1000000
 *ST南置	njvi	1000000
-*ST南置	njv	1000000
 *ST云网	yywh	1000000
-*ST云网	yyw	1000000
 北新路桥	bwxbluqn	1000000
 北新路桥	bwxbluq	1000000
 中利集团	vslijitr	1000000
@@ -1687,7 +1624,6 @@ ST宏达	hsd	1000000
 理工能科	ligsngke	1000000
 理工能科	ligsngk	1000000
 *ST雅博	yabo	1000000
-*ST雅博	yab	1000000
 普利特	pulite	1000000
 普利特	pulit	1000000
 永太科技	ystdkeji	1000000
@@ -1753,7 +1689,6 @@ ST宏达	hsd	1000000
 森源电气	sfyrdmqi	1000000
 森源电气	sfyrdmq	1000000
 ST同德	tsde	1000000
-ST同德	tsd	1000000
 神剑股份	ufjmguff	1000000
 神剑股份	ufjmguf	1000000
 汉王科技	hjwhkeji	1000000
@@ -1877,7 +1812,6 @@ ST同德	tsd	1000000
 中粮资本	vsllzibf	1000000
 中粮资本	vsllzib	1000000
 ST百灵	bdlk	1000000
-ST百灵	bdl	1000000
 凯撒文化	kdsawfhx	1000000
 凯撒文化	kdsawfh	1000000
 胜利精密	uglijkmi	1000000
@@ -1891,7 +1825,6 @@ ST百灵	bdl	1000000
 杭氧股份	hhyhguff	1000000
 杭氧股份	hhyhguf	1000000
 ST棕榈	zslv	1000000
-ST棕榈	zsl	1000000
 九安医疗	jqanyiln	1000000
 九安医疗	jqanyil	1000000
 万里扬	wjliyh	1000000
@@ -1985,7 +1918,6 @@ ST棕榈	zsl	1000000
 江海股份	jlhdguff	1000000
 江海股份	jlhdguf	1000000
 ST雪发	xtfa	1000000
-ST雪发	xtf	1000000
 嘉麟杰	jxlbjp	1000000
 嘉麟杰	jxlbj	1000000
 大金重工	dajbvsgs	1000000
@@ -2007,7 +1939,6 @@ ST雪发	xtf	1000000
 佳隆股份	jxlsguff	1000000
 佳隆股份	jxlsguf	1000000
 *ST辉丰	hvfg	1000000
-*ST辉丰	hvf	1000000
 雅化集团	yahxjitr	1000000
 雅化集团	yahxjit	1000000
 汉缆股份	hjljguff	1000000
@@ -2015,7 +1946,6 @@ ST雪发	xtf	1000000
 山西证券	ujxivgqr	1000000
 山西证券	ujxivgq	1000000
 *ST利源	liyr	1000000
-*ST利源	liy	1000000
 协鑫集成	xpxbjiig	1000000
 协鑫集成	xpxbjii	1000000
 涪陵榨菜	fulkvacd	1000000
@@ -2027,11 +1957,9 @@ ST雪发	xtf	1000000
 中顺洁柔	vsuyjprz	1000000
 中顺洁柔	vsuyjpr	1000000
 ST达华	dahx	1000000
-ST达华	dah	1000000
 蓝丰生化	ljfgughx	1000000
 蓝丰生化	ljfgugh	1000000
 *ST宝馨	bcxb	1000000
-*ST宝馨	bcx	1000000
 金字火腿	jbzihotv	1000000
 金字火腿	jbzihot	1000000
 旷达科技	kldakeji	1000000
@@ -2057,9 +1985,7 @@ ST达华	dah	1000000
 新时达	xbuida	1000000
 新时达	xbuid	1000000
 *ST英飞	ykfw	1000000
-*ST英飞	ykf	1000000
 *ST海源	hdyr	1000000
-*ST海源	hdy	1000000
 金财互联	jbcdhulm	1000000
 金财互联	jbcdhul	1000000
 天顺风能	tmuyfgng	1000000
@@ -2077,7 +2003,6 @@ ST达华	dah	1000000
 海联金汇	hdlmjbhv	1000000
 海联金汇	hdlmjbh	1000000
 ST司特	site	1000000
-ST司特	sit	1000000
 云图控股	yytuksgu	1000000
 云图控股	yytuksg	1000000
 亚太科技	yatdkeji	1000000
@@ -2085,7 +2010,6 @@ ST司特	sit	1000000
 鸿路钢构	hslughgz	1000000
 鸿路钢构	hslughg	1000000
 *ST中岩	vsyj	1000000
-*ST中岩	vsy	1000000
 万和电气	wjhedmqi	1000000
 万和电气	wjhedmq	1000000
 普天科技	putmkeji	1000000
@@ -2095,7 +2019,6 @@ ST司特	sit	1000000
 新联电子	xblmdmzi	1000000
 新联电子	xblmdmz	1000000
 *ST春兴	iyxk	1000000
-*ST春兴	iyx	1000000
 金新农	jbxbns	1000000
 金新农	jbxbn	1000000
 凯美特气	kdmwteqi	1000000
@@ -2139,7 +2062,6 @@ ST司特	sit	1000000
 百润股份	bdryguff	1000000
 百润股份	bdryguf	1000000
 *ST步森	busf	1000000
-*ST步森	bus	1000000
 贝因美	bwybmw	1000000
 贝因美	bwybm	1000000
 德力股份	deliguff	1000000
@@ -2163,7 +2085,6 @@ ST司特	sit	1000000
 圣阳股份	ugyhguff	1000000
 圣阳股份	ugyhguf	1000000
 *ST未名	wwmk	1000000
-*ST未名	wwm	1000000
 好想你	hcxlni	1000000
 好想你	hcxln	1000000
 海能达	hdngda	1000000
@@ -2173,7 +2094,6 @@ ST司特	sit	1000000
 双星新材	ulxkxbcd	1000000
 双星新材	ulxkxbc	1000000
 ST围海	wwhd	1000000
-ST围海	wwh	1000000
 奥拓电子	aotodmzi	1000000
 奥拓电子	aotodmz	1000000
 史丹利	uidjli	1000000
@@ -2185,7 +2105,6 @@ ST围海	wwh	1000000
 恒大高新	hgdagcxb	1000000
 恒大高新	hgdagcx	1000000
 ST八菱	balk	1000000
-ST八菱	bal	1000000
 日上集团	riuhjitr	1000000
 日上集团	riuhjit	1000000
 比亚迪	biyadi	1000000
@@ -2197,7 +2116,6 @@ ST八菱	bal	1000000
 金禾实业	jbheuiye	1000000
 金禾实业	jbheuiy	1000000
 ST章鼓	vhgu	1000000
-ST章鼓	vhg	1000000
 盛通股份	ugtsguff	1000000
 盛通股份	ugtsguf	1000000
 领益智造	lkyivizc	1000000
@@ -2233,7 +2151,6 @@ ST章鼓	vhg	1000000
 露笑科技	luxnkeji	1000000
 露笑科技	luxnkej	1000000
 *ST瑞和	rvhe	1000000
-*ST瑞和	rvh	1000000
 皓宸医疗	hcifyiln	1000000
 皓宸医疗	hcifyil	1000000
 亚玛顿	yamady	1000000
@@ -2251,7 +2168,6 @@ ST章鼓	vhg	1000000
 仁智股份	rfviguff	1000000
 仁智股份	rfviguf	1000000
 *ST华西	hxxi	1000000
-*ST华西	hxx	1000000
 德尔未来	deerwwld	1000000
 德尔未来	deerwwl	1000000
 道明光学	dcmkglxt	1000000
@@ -2259,7 +2175,6 @@ ST章鼓	vhg	1000000
 申科股份	ufkeguff	1000000
 申科股份	ufkeguf	1000000
 *ST棒杰	bhjp	1000000
-*ST棒杰	bhj	1000000
 安洁科技	anjpkeji	1000000
 安洁科技	anjpkej	1000000
 金安国纪	jbangoji	1000000
@@ -2291,7 +2206,6 @@ ST章鼓	vhg	1000000
 博彦科技	boyjkeji	1000000
 博彦科技	boyjkej	1000000
 ST加加	jxjx	1000000
-ST加加	jxj	1000000
 利君股份	lijyguff	1000000
 利君股份	lijyguf	1000000
 扬子新材	yhzixbcd	1000000
@@ -2303,7 +2217,6 @@ ST加加	jxj	1000000
 共达电声	gsdadmug	1000000
 共达电声	gsdadmu	1000000
 *ST摩登	modg	1000000
-*ST摩登	mod	1000000
 中科金财	vskejbcd	1000000
 中科金财	vskejbc	1000000
 雪迪龙	xtdils	1000000
@@ -2323,7 +2236,6 @@ ST加加	jxj	1000000
 德联集团	delmjitr	1000000
 德联集团	delmjit	1000000
 *ST威领	wwlk	1000000
-*ST威领	wwl	1000000
 TCL智家	clvijx	1000000
 TCL智家	clvij	1000000
 康达新材	khdaxbcd	1000000
@@ -2363,17 +2275,14 @@ TCL智家	clvij	1000000
 金河生物	jbheugwu	1000000
 金河生物	jbheugw	1000000
 ST远智	yrvi	1000000
-ST远智	yrv	1000000
 美亚光电	mwyagldm	1000000
 美亚光电	mwyagld	1000000
 *ST冀凯	jikd	1000000
-*ST冀凯	jik	1000000
 远程股份	yrigguff	1000000
 远程股份	yrigguf	1000000
 双成药业	uligycye	1000000
 双成药业	uligycy	1000000
 *ST顾地	gudi	1000000
-*ST顾地	gud	1000000
 煌上煌	hluhhl	1000000
 煌上煌	hluhh	1000000
 百洋股份	bdyhguff	1000000
@@ -2403,7 +2312,6 @@ ST远智	yrv	1000000
 思美传媒	simwirmw	1000000
 思美传媒	simwirm	1000000
 *ST东易	dsyi	1000000
-*ST东易	dsy	1000000
 牧原股份	muyrguff	1000000
 牧原股份	muyrguf	1000000
 登云股份	dgyyguff	1000000
@@ -2411,11 +2319,9 @@ ST远智	yrv	1000000
 湖南白银	hunjbdyb	1000000
 湖南白银	hunjbdy	1000000
 *ST岭南	lknj	1000000
-*ST岭南	lkn	1000000
 友邦吊顶	yzbhdndk	1000000
 友邦吊顶	yzbhdnd	1000000
 ST麦趣	mdqu	1000000
-ST麦趣	mdq	1000000
 金一文化	jbyiwfhx	1000000
 金一文化	jbyiwfh	1000000
 物产金轮	wuijjbly	1000000
@@ -2427,7 +2333,6 @@ ST麦趣	mdq	1000000
 跃岭股份	ytlkguff	1000000
 跃岭股份	ytlkguf	1000000
 ST龙大	lsda	1000000
-ST龙大	lsd	1000000
 一心堂	yixbth	1000000
 一心堂	yixbt	1000000
 特一药业	teyiycye	1000000
@@ -2437,7 +2342,6 @@ ST龙大	lsd	1000000
 电光科技	dmglkeji	1000000
 电光科技	dmglkej	1000000
 ST萃华	cvhx	1000000
-ST萃华	cvh	1000000
 燕塘乳业	yjthruye	1000000
 燕塘乳业	yjthruy	1000000
 雄韬股份	xstcguff	1000000
@@ -2489,7 +2393,6 @@ ST萃华	cvh	1000000
 浙江建投	vejljmtz	1000000
 浙江建投	vejljmt	1000000
 *ST金比	jbbi	1000000
-*ST金比	jbb	1000000
 汇洁股份	hvjpguff	1000000
 汇洁股份	hvjpguf	1000000
 蓝黛科技	ljddkeji	1000000
@@ -2533,7 +2436,6 @@ ST萃华	cvh	1000000
 鹭燕医药	luyjyiyc	1000000
 鹭燕医药	luyjyiy	1000000
 *ST建艺	jmyi	1000000
-*ST建艺	jmy	1000000
 瑞尔特	rverte	1000000
 瑞尔特	rvert	1000000
 坚朗五金	jmlhwujb	1000000
@@ -2567,7 +2469,6 @@ ST萃华	cvh	1000000
 江阴银行	jlybybhh	1000000
 江阴银行	jlybybh	1000000
 *ST恒久	hgjq	1000000
-*ST恒久	hgj	1000000
 红墙股份	hsqlguff	1000000
 红墙股份	hsqlguf	1000000
 山东赫达	ujdsheda	1000000
@@ -2581,7 +2482,6 @@ ST萃华	cvh	1000000
 崇达技术	isdajiuu	1000000
 崇达技术	isdajiu	1000000
 *ST和科	heke	1000000
-*ST和科	hek	1000000
 黄山胶囊	hlujjnnh	1000000
 黄山胶囊	hlujjnn	1000000
 富森美	fusfmw	1000000
@@ -2593,7 +2493,6 @@ ST萃华	cvh	1000000
 凯莱英	kdldyk	1000000
 凯莱英	kdldy	1000000
 ST中装	vsvl	1000000
-ST中装	vsv	1000000
 凯中精密	kdvsjkmi	1000000
 凯中精密	kdvsjkm	1000000
 和胜股份	heugguff	1000000
@@ -2641,7 +2540,6 @@ ST中装	vsv	1000000
 盐津铺子	yjjbpuzi	1000000
 盐津铺子	yjjbpuz	1000000
 *ST高斯	gcsi	1000000
-*ST高斯	gcs	1000000
 威星智能	wwxkving	1000000
 威星智能	wwxkvin	1000000
 科达利	kedali	1000000
@@ -2655,7 +2553,6 @@ ST中装	vsv	1000000
 捷荣技术	jprsjiuu	1000000
 捷荣技术	jprsjiu	1000000
 *ST美芝	mwvi	1000000
-*ST美芝	mwv	1000000
 三晖电气	sjhvdmqi	1000000
 三晖电气	sjhvdmq	1000000
 力盛体育	liugtiyu	1000000
@@ -2687,7 +2584,6 @@ ST中装	vsv	1000000
 伟隆股份	wwlsguff	1000000
 伟隆股份	wwlsguf	1000000
 ST天圣	tmug	1000000
-ST天圣	tmu	1000000
 新天药业	xbtmycye	1000000
 新天药业	xbtmycy	1000000
 安奈儿	annder	1000000
@@ -2707,7 +2603,6 @@ ST天圣	tmu	1000000
 金龙羽	jblsyu	1000000
 金龙羽	jblsy	1000000
 *ST中设	vsue	1000000
-*ST中设	vsu	1000000
 凌霄泵业	lkxnbgye	1000000
 凌霄泵业	lkxnbgy	1000000
 京泉华	jkqrhx	1000000
@@ -2735,7 +2630,6 @@ ST天圣	tmu	1000000
 意华股份	yihxguff	1000000
 意华股份	yihxguf	1000000
 *ST赛隆	sdls	1000000
-*ST赛隆	sdl	1000000
 英派斯	ykpdsi	1000000
 英派斯	ykpds	1000000
 哈三联	hasjlm	1000000
@@ -2797,7 +2691,6 @@ ST天圣	tmu	1000000
 锋龙股份	fglsguff	1000000
 锋龙股份	fglsguf	1000000
 *ST明德	mkde	1000000
-*ST明德	mkd	1000000
 新兴装备	xbxkvlbw	1000000
 新兴装备	xbxkvlb	1000000
 天奥电子	tmaodmzi	1000000
@@ -2877,7 +2770,6 @@ ST天圣	tmu	1000000
 瑞玛精密	rvmajkmi	1000000
 瑞玛精密	rvmajkm	1000000
 *ST天箭	tmjm	1000000
-*ST天箭	tmj	1000000
 安宁股份	annkguff	1000000
 安宁股份	annkguf	1000000
 雷赛智能	lwsdving	1000000
@@ -2981,7 +2873,6 @@ ST天圣	tmu	1000000
 中瓷电子	vscidmzi	1000000
 中瓷电子	vscidmz	1000000
 *ST传智	irvi	1000000
-*ST传智	irv	1000000
 征和工业	vghegsye	1000000
 征和工业	vghegsy	1000000
 南网能源	njwhngyr	1000000
@@ -3023,7 +2914,6 @@ ST天圣	tmu	1000000
 安科生物	ankeugwu	1000000
 安科生物	ankeugw	1000000
 ST豆神	dzuf	1000000
-ST豆神	dzu	1000000
 鼎汉技术	dkhjjiuu	1000000
 鼎汉技术	dkhjjiu	1000000
 华测检测	hxcejmce	1000000
@@ -3043,7 +2933,6 @@ ST豆神	dzu	1000000
 硅宝科技	gvbckeji	1000000
 硅宝科技	gvbckej	1000000
 ST银江	ybjl	1000000
-ST银江	ybj	1000000
 大禹节水	dayujpuv	1000000
 大禹节水	dayujpu	1000000
 吉峰科技	jifgkeji	1000000
@@ -3055,9 +2944,7 @@ ST银江	ybj	1000000
 红日药业	hsriycye	1000000
 红日药业	hsriycy	1000000
 ST华谊	hxyi	1000000
-ST华谊	hxy	1000000
 *ST天龙	tmls	1000000
-*ST天龙	tml	1000000
 阳普医疗	yhpuyiln	1000000
 阳普医疗	yhpuyil	1000000
 宝通科技	bctskeji	1000000
@@ -3085,7 +2972,6 @@ ST华谊	hxy	1000000
 星辉娱乐	xkhvyule	1000000
 星辉娱乐	xkhvyul	1000000
 *ST赛为	sdww	1000000
-*ST赛为	sdw	1000000
 华力创通	hxliilts	1000000
 华力创通	hxliilt	1000000
 台基股份	tdjiguff	1000000
@@ -3129,7 +3015,6 @@ ST华谊	hxy	1000000
 安诺其	annoqi	1000000
 安诺其	annoq	1000000
 ST南都	njdz	1000000
-ST南都	njd	1000000
 金利华电	jblihxdm	1000000
 金利华电	jblihxd	1000000
 碧水源	biuvyr	1000000
@@ -3145,7 +3030,6 @@ ST南都	njd	1000000
 数字政通	uuzivgts	1000000
 数字政通	uuzivgt	1000000
 *ST宁视	nkui	1000000
-*ST宁视	nku	1000000
 国民技术	gombjiuu	1000000
 国民技术	gombjiu	1000000
 思创智联	siilvilm	1000000
@@ -3155,7 +3039,6 @@ ST南都	njd	1000000
 易成新能	yiigxbng	1000000
 易成新能	yiigxbn	1000000
 ST恒信	hgxb	1000000
-ST恒信	hgx	1000000
 奥克股份	aokeguff	1000000
 奥克股份	aokeguf	1000000
 创世纪	iluiji	1000000
@@ -3171,11 +3054,9 @@ ST恒信	hgx	1000000
 长信科技	vhxbkeji	1000000
 长信科技	vhxbkej	1000000
 *ST金灵	jblk	1000000
-*ST金灵	jbl	1000000
 科新机电	kexbjidm	1000000
 科新机电	kexbjid	1000000
 *ST金刚	jbgh	1000000
-*ST金刚	jbg	1000000
 国联水产	golmuvij	1000000
 国联水产	golmuvi	1000000
 华伍股份	hxwuguff	1000000
@@ -3225,11 +3106,9 @@ ST易联众	yilmv	1000000
 智飞生物	vifwugwu	1000000
 智飞生物	vifwugw	1000000
 ST亚光	yagl	1000000
-ST亚光	yag	1000000
 汇川技术	hvirjiuu	1000000
 汇川技术	hvirjiu	1000000
 *ST聆达	lkda	1000000
-*ST聆达	lkd	1000000
 锐奇股份	rvqiguff	1000000
 锐奇股份	rvqiguf	1000000
 银河磁体	ybheciti	1000000
@@ -3273,7 +3152,6 @@ ST亚光	yag	1000000
 汤臣倍健	thifbwjm	1000000
 汤臣倍健	thifbwj	1000000
 *ST香雪	xlxt	1000000
-*ST香雪	xlx	1000000
 天舟文化	tmvzwfhx	1000000
 天舟文化	tmvzwfh	1000000
 睿智医药	rvviyiyc	1000000
@@ -3283,7 +3161,6 @@ ST亚光	yag	1000000
 昌红科技	ihhskeji	1000000
 昌红科技	ihhskej	1000000
 *ST动力	dsli	1000000
-*ST动力	dsl	1000000
 科泰电源	ketddmyr	1000000
 科泰电源	ketddmy	1000000
 瑞凌股份	rvlkguff	1000000
@@ -3295,7 +3172,6 @@ ST亚光	yag	1000000
 振东制药	vfdsviyc	1000000
 振东制药	vfdsviy	1000000
 *ST新研	xbyj	1000000
-*ST新研	xby	1000000
 秀强股份	xqqlguff	1000000
 秀强股份	xqqlguf	1000000
 华中数控	hxvsuuks	1000000
@@ -3323,11 +3199,9 @@ ST迪威迅	diwwx	1000000
 中电环保	vsdmhrbc	1000000
 中电环保	vsdmhrb	1000000
 ST福能	fung	1000000
-ST福能	fun	1000000
 元力股份	yrliguff	1000000
 元力股份	yrliguf	1000000
 ST朗源	lhyr	1000000
-ST朗源	lhy	1000000
 鸿特科技	hstekeji	1000000
 鸿特科技	hstekej	1000000
 中海达	vshdda	1000000
@@ -3369,7 +3243,6 @@ ST朗源	lhy	1000000
 节能铁汉	jpngtphj	1000000
 节能铁汉	jpngtph	1000000
 *ST纳川	nair	1000000
-*ST纳川	nai	1000000
 翰宇药业	hjyuycye	1000000
 翰宇药业	hjyuycy	1000000
 高盟新材	gcmgxbcd	1000000
@@ -3381,7 +3254,6 @@ ST朗源	lhy	1000000
 舒泰神	uutduf	1000000
 舒泰神	uutdu	1000000
 *ST天喻	tmyu	1000000
-*ST天喻	tmy	1000000
 理邦仪器	libhyiqi	1000000
 理邦仪器	libhyiq	1000000
 欣旺达	xbwhda	1000000
@@ -3391,9 +3263,7 @@ ST朗源	lhy	1000000
 森远股份	sfyrguff	1000000
 森远股份	sfyrguf	1000000
 *ST亿通	yits	1000000
-*ST亿通	yit	1000000
 *ST易录	yilu	1000000
-*ST易录	yil	1000000
 佳讯飞鸿	jxxyfwhs	1000000
 佳讯飞鸿	jxxyfwh	1000000
 日科化学	rikehxxt	1000000
@@ -3417,7 +3287,6 @@ ST朗源	lhy	1000000
 正海磁材	vghdcicd	1000000
 正海磁材	vghdcic	1000000
 *ST金泰	jbtd	1000000
-*ST金泰	jbt	1000000
 上海钢联	uhhdghlm	1000000
 上海钢联	uhhdghl	1000000
 光韵达	glyyda	1000000
@@ -3441,7 +3310,6 @@ ST朗源	lhy	1000000
 上海新阳	uhhdxbyh	1000000
 上海新阳	uhhdxby	1000000
 ST美晨	mwif	1000000
-ST美晨	mwi	1000000
 冠昊生物	grhcugwu	1000000
 冠昊生物	grhcugw	1000000
 东宝生物	dsbcugwu	1000000
@@ -3457,7 +3325,6 @@ ST美晨	mwi	1000000
 迪安诊断	dianvfdr	1000000
 迪安诊断	dianvfd	1000000
 ST天玑	tmji	1000000
-ST天玑	tmj	1000000
 宝莱特	bcldte	1000000
 宝莱特	bcldt	1000000
 融捷健康	rsjpjmkh	1000000
@@ -3559,7 +3426,6 @@ ST天玑	tmj	1000000
 海峡创新	hdxxilxb	1000000
 海峡创新	hdxxilx	1000000
 ST长方	ihfh	1000000
-ST长方	ihf	1000000
 同有科技	tsyzkeji	1000000
 同有科技	tsyzkej	1000000
 聚飞光电	jufwgldm	1000000
@@ -3579,7 +3445,6 @@ ST长方	ihf	1000000
 ST任子行	rfzixk	1000000
 ST任子行	rfzix	1000000
 *ST天山	tmuj	1000000
-*ST天山	tmu	1000000
 戴维医疗	ddwwyiln	1000000
 戴维医疗	ddwwyil	1000000
 掌趣科技	vhqukeji	1000000
@@ -3603,7 +3468,6 @@ ST任子行	rfzix	1000000
 旋极信息	xrjixbxi	1000000
 旋极信息	xrjixbx	1000000
 ST凯利	kdli	1000000
-ST凯利	kdl	1000000
 中颖电子	vsykdmzi	1000000
 中颖电子	vsykdmz	1000000
 宜安科技	yiankeji	1000000
@@ -3623,7 +3487,6 @@ ST凯利	kdl	1000000
 银邦股份	ybbhguff	1000000
 银邦股份	ybbhguf	1000000
 *ST开元	kdyr	1000000
-*ST开元	kdy	1000000
 润和软件	ryherrjm	1000000
 润和软件	ryherrj	1000000
 科恒股份	kehgguff	1000000
@@ -3633,7 +3496,6 @@ ST凯利	kdl	1000000
 天银机电	tmybjidm	1000000
 天银机电	tmybjid	1000000
 ST联创	lmil	1000000
-ST联创	lmi	1000000
 华民股份	hxmbguff	1000000
 华民股份	hxmbguf	1000000
 南大光电	njdagldm	1000000
@@ -3649,7 +3511,6 @@ ST联创	lmi	1000000
 永贵电器	ysgvdmqi	1000000
 永贵电器	ysgvdmq	1000000
 ST信源	xbyr	1000000
-ST信源	xby	1000000
 东土科技	dstukeji	1000000
 东土科技	dstukej	1000000
 东华测试	dshxceui	1000000
@@ -3671,7 +3532,6 @@ ST信源	xby	1000000
 恒华科技	hghxkeji	1000000
 恒华科技	hghxkej	1000000
 ST创意	ilyi	1000000
-ST创意	ily	1000000
 汇金股份	hvjbguff	1000000
 汇金股份	hvjbguf	1000000
 绿盟科技	lvmgkeji	1000000
@@ -3703,7 +3563,6 @@ ST创意	ily	1000000
 三联虹普	sjlmhspu	1000000
 三联虹普	sjlmhsp	1000000
 ST雪浪	xtlh	1000000
-ST雪浪	xtl	1000000
 飞天诚信	fwtmigxb	1000000
 飞天诚信	fwtmigx	1000000
 富邦科技	fubhkeji	1000000
@@ -3721,7 +3580,6 @@ ST雪浪	xtl	1000000
 菲利华	fwlihx	1000000
 菲利华	fwlih	1000000
 ST迪瑞	dirv	1000000
-ST迪瑞	dir	1000000
 天和防务	tmhefhwu	1000000
 天和防务	tmhefhw	1000000
 飞凯材料	fwkdcdln	1000000
@@ -3767,7 +3625,6 @@ ST迪瑞	dir	1000000
 昆仑万维	kylywjww	1000000
 昆仑万维	kylywjw	1000000
 ST浩丰	hcfg	1000000
-ST浩丰	hcf	1000000
 五洋自控	wuyhziks	1000000
 五洋自控	wuyhzik	1000000
 力星股份	lixkguff	1000000
@@ -3789,7 +3646,6 @@ ST浩丰	hcf	1000000
 强力新材	qllixbcd	1000000
 强力新材	qllixbc	1000000
 *ST益通	yits	1000000
-*ST益通	yit	1000000
 富临精工	fulbjkgs	1000000
 富临精工	fulbjkg	1000000
 蓝思科技	ljsikeji	1000000
@@ -3847,11 +3703,9 @@ ST浩丰	hcf	1000000
 汤姆猫	thmumc	1000000
 汤姆猫	thmum	1000000
 ST惠伦	hvly	1000000
-ST惠伦	hvl	1000000
 田中精机	tmvsjkji	1000000
 田中精机	tmvsjkj	1000000
 ST华铭	hxmk	1000000
-ST华铭	hxm	1000000
 迈克生物	mdkeugwu	1000000
 迈克生物	mdkeugw	1000000
 星徽股份	xkhvguff	1000000
@@ -3871,7 +3725,6 @@ ST华铭	hxm	1000000
 厚普股份	hzpuguff	1000000
 厚普股份	hzpuguf	1000000
 *ST新元	xbyr	1000000
-*ST新元	xby	1000000
 德尔股份	deerguff	1000000
 德尔股份	deerguf	1000000
 景嘉微	jkjxww	1000000
@@ -3881,7 +3734,6 @@ ST华铭	hxm	1000000
 胜宏科技	ughskeji	1000000
 胜宏科技	ughskej	1000000
 ST合纵	hezs	1000000
-ST合纵	hez	1000000
 杭州高新	hhvzgcxb	1000000
 杭州高新	hhvzgcx	1000000
 神思电子	ufsidmzi	1000000
@@ -3975,7 +3827,6 @@ ST名家汇	mkjxh	1000000
 博思软件	bosirrjm	1000000
 博思软件	bosirrj	1000000
 ST应急	ykji	1000000
-ST应急	ykj	1000000
 幸福蓝海	xkfuljhd	1000000
 幸福蓝海	xkfuljh	1000000
 健帆生物	jmfjugwu	1000000
@@ -4029,7 +3880,6 @@ ST应急	ykj	1000000
 三超新材	sjicxbcd	1000000
 三超新材	sjicxbc	1000000
 ST路通	luts	1000000
-ST路通	lut	1000000
 丝路视觉	siluuijt	1000000
 丝路视觉	siluuij	1000000
 理工光科	ligsglke	1000000
@@ -4041,7 +3891,6 @@ ST路通	lut	1000000
 中富通	vsfuts	1000000
 中富通	vsfut	1000000
 *ST汇科	hvke	1000000
-*ST汇科	hvk	1000000
 乐心医疗	lexbyiln	1000000
 乐心医疗	lexbyil	1000000
 神宇股份	ufyuguff	1000000
@@ -4105,7 +3954,6 @@ ST路通	lut	1000000
 新雷能	xblwng	1000000
 新雷能	xblwn	1000000
 ST朗进	lhjb	1000000
-ST朗进	lhj	1000000
 欧普康视	oupukhui	1000000
 欧普康视	oupukhu	1000000
 利安隆	lianls	1000000
@@ -4341,7 +4189,6 @@ ST朗进	lhj	1000000
 凯伦股份	kdlyguff	1000000
 凯伦股份	kdlyguf	1000000
 *ST泉为	qrww	1000000
-*ST泉为	qrw	1000000
 华信新材	hxxbxbcd	1000000
 华信新材	hxxbxbc	1000000
 长盛轴承	vhugvzig	1000000
@@ -4937,7 +4784,6 @@ ST朗进	lhj	1000000
 怡合达	yiheda	1000000
 怡合达	yihed	1000000
 *ST仕净	uijk	1000000
-*ST仕净	uij	1000000
 中熔电气	vsrsdmqi	1000000
 中熔电气	vsrsdmq	1000000
 新柴股份	xbidguff	1000000
@@ -5133,7 +4979,6 @@ ST朗进	lhj	1000000
 华研精机	hxyjjkji	1000000
 华研精机	hxyjjkj	1000000
 *ST元道	yrdc	1000000
-*ST元道	yrd	1000000
 中科磁业	vskeciye	1000000
 中科磁业	vskeciy	1000000
 嘉戎技术	jxrsjiuu	1000000
@@ -5873,7 +5718,6 @@ ST朗进	lhj	1000000
 东望时代	dswhuidd	1000000
 东望时代	dswhuid	1000000
 *ST九鼎	jqdk	1000000
-*ST九鼎	jqd	1000000
 黄山旅游	hlujlvyz	1000000
 黄山旅游	hlujlvy	1000000
 万东医疗	wjdsyiln	1000000
@@ -5913,15 +5757,11 @@ ST朗进	lhj	1000000
 澄星股份	igxkguff	1000000
 澄星股份	igxkguf	1000000
 ST人福	rffu	1000000
-ST人福	rff	1000000
 ST金花	jbhx	1000000
-ST金花	jbh	1000000
 东风科技	dsfgkeji	1000000
 东风科技	dsfgkej	1000000
 ST海泰	hdtd	1000000
-ST海泰	hdt	1000000
 *ST尼雅	niya	1000000
-*ST尼雅	niy	1000000
 同仁堂	tsrfth	1000000
 同仁堂	tsrft	1000000
 中视传媒	vsuiirmw	1000000
@@ -5953,7 +5793,6 @@ ST海泰	hdt	1000000
 重庆路桥	isqkluqn	1000000
 重庆路桥	isqkluq	1000000
 *ST尔雅	erya	1000000
-*ST尔雅	ery	1000000
 亚盛集团	yaugjitr	1000000
 亚盛集团	yaugjit	1000000
 国金证券	gojbvgqr	1000000
@@ -5975,7 +5814,6 @@ ST海泰	hdt	1000000
 中国卫星	vsgowwxk	1000000
 中国卫星	vsgowwx	1000000
 *ST长投	vhtz	1000000
-*ST长投	vht	1000000
 浙江东方	vejldsfh	1000000
 浙江东方	vejldsf	1000000
 郑州煤电	vgvzmwdm	1000000
@@ -6003,7 +5841,6 @@ ST海泰	hdt	1000000
 乐凯胶片	lekdjnpm	1000000
 乐凯胶片	lekdjnp	1000000
 ST明诚	mkig	1000000
-ST明诚	mki	1000000
 浪莎股份	lhuaguff	1000000
 浪莎股份	lhuaguf	1000000
 中青旅	vsqklv	1000000
@@ -6043,7 +5880,6 @@ ST明诚	mki	1000000
 中闽能源	vsmbngyr	1000000
 中闽能源	vsmbngy	1000000
 ST宁科	nkke	1000000
-ST宁科	nkk	1000000
 福田汽车	futmqiie	1000000
 福田汽车	futmqii	1000000
 联美控股	lmmwksgu	1000000
@@ -6051,7 +5887,6 @@ ST宁科	nkk	1000000
 武汉控股	wuhjksgu	1000000
 武汉控股	wuhjksg	1000000
 ST太重	tdvs	1000000
-ST太重	tdv	1000000
 上海建工	uhhdjmgs	1000000
 上海建工	uhhdjmg	1000000
 上海贝岭	uhhdbwlk	1000000
@@ -6069,9 +5904,7 @@ XD中国巨	xdvsgoj	1000000
 安通控股	antsksgu	1000000
 安通控股	antsksg	1000000
 *ST瑞茂	rvmc	1000000
-*ST瑞茂	rvm	1000000
 S佳通	jxts	1000000
-S佳通	jxt	1000000
 生益科技	ugyikeji	1000000
 生益科技	ugyikej	1000000
 光电股份	gldmguff	1000000
@@ -6081,7 +5914,6 @@ S佳通	jxt	1000000
 莲花控股	lmhxksgu	1000000
 莲花控股	lmhxksg	1000000
 *ST国中	govs	1000000
-*ST国中	gov	1000000
 兖矿能源	yjklngyr	1000000
 兖矿能源	yjklngy	1000000
 泉阳泉	qryhqr	1000000
@@ -6091,7 +5923,6 @@ S佳通	jxt	1000000
 长城电工	ihigdmgs	1000000
 长城电工	ihigdmg	1000000
 *ST创兴	ilxk	1000000
-*ST创兴	ilx	1000000
 中牧股份	vsmuguff	1000000
 中牧股份	vsmuguf	1000000
 复星医药	fuxkyiyc	1000000
@@ -6141,7 +5972,6 @@ S佳通	jxt	1000000
 赤天化	iitmhx	1000000
 赤天化	iitmh	1000000
 *ST返利	fjli	1000000
-*ST返利	fjl	1000000
 城市传媒	iguiirmw	1000000
 城市传媒	iguiirm	1000000
 沧州大化	chvzdahx	1000000
@@ -6161,13 +5991,10 @@ S佳通	jxt	1000000
 铜峰电子	tsfgdmzi	1000000
 铜峰电子	tsfgdmz	1000000
 *ST椰岛	yedc	1000000
-*ST椰岛	yed	1000000
 ST云城	yyig	1000000
-ST云城	yyi	1000000
 时代万恒	uiddwjhg	1000000
 时代万恒	uiddwjh	1000000
 *ST海华	hdhx	1000000
-*ST海华	hdh	1000000
 万通发展	wjtsfavj	1000000
 万通发展	wjtsfav	1000000
 陕建股份	ujjmguff	1000000
@@ -6195,7 +6022,6 @@ ST云城	yyi	1000000
 北方股份	bwfhguff	1000000
 北方股份	bwfhguf	1000000
 *ST景谷	jkgu	1000000
-*ST景谷	jkg	1000000
 城建发展	igjmfavj	1000000
 城建发展	igjmfav	1000000
 海正药业	hdvgycye	1000000
@@ -6233,7 +6059,6 @@ XD恒瑞医	xdhgrvy	1000000
 大恒科技	dahgkeji	1000000
 大恒科技	dahgkej	1000000
 ST信通	xbts	1000000
-ST信通	xbt	1000000
 电投水电	dmtzuvdm	1000000
 电投水电	dmtzuvd	1000000
 三峡新材	sjxxxbcd	1000000
@@ -6249,7 +6074,6 @@ ST信通	xbt	1000000
 华锡有色	hxxiyzse	1000000
 华锡有色	hxxiyzs	1000000
 ST标准	bnvy	1000000
-ST标准	bnv	1000000
 曙光股份	uuglguff	1000000
 曙光股份	uuglguf	1000000
 恒顺醋业	hguycuye	1000000
@@ -6303,13 +6127,11 @@ XD万华化	xdwjhxh	1000000
 澳柯玛	aokema	1000000
 澳柯玛	aokem	1000000
 ST美克	mwke	1000000
-ST美克	mwk	1000000
 西藏珠峰	xizhvufg	1000000
 西藏珠峰	xizhvuf	1000000
 中油工程	vsyzgsig	1000000
 中油工程	vsyzgsi	1000000
 *ST华幸	hxxk	1000000
-*ST华幸	hxx	1000000
 航天动力	hhtmdsli	1000000
 航天动力	hhtmdsl	1000000
 长江通信	ihjltsxb	1000000
@@ -6343,7 +6165,6 @@ ST美克	mwk	1000000
 联创光电	lmilgldm	1000000
 联创光电	lmilgld	1000000
 ST通葡	tspu	1000000
-ST通葡	tsp	1000000
 宁波韵升	nkboyyug	1000000
 宁波韵升	nkboyyu	1000000
 红星发展	hsxkfavj	1000000
@@ -6353,7 +6174,6 @@ ST通葡	tsp	1000000
 西南证券	xinjvgqr	1000000
 西南证券	xinjvgq	1000000
 *ST三房	sjfh	1000000
-*ST三房	sjf	1000000
 万向德农	wjxldens	1000000
 万向德农	wjxlden	1000000
 中航机载	vshhjizd	1000000
@@ -6373,7 +6193,6 @@ ST通葡	tsp	1000000
 健康元	jmkhyr	1000000
 健康元	jmkhy	1000000
 *ST春天	iytm	1000000
-*ST春天	iyt	1000000
 广东明珠	gldsmkvu	1000000
 广东明珠	gldsmkv	1000000
 金地集团	jbdijitr	1000000
@@ -6425,11 +6244,9 @@ ST通葡	tsp	1000000
 国药现代	goycxmdd	1000000
 国药现代	goycxmd	1000000
 *ST华嵘	hxrs	1000000
-*ST华嵘	hxr	1000000
 昆药集团	kyycjitr	1000000
 昆药集团	kyycjit	1000000
 *ST柳化	lqhx	1000000
-*ST柳化	lqh	1000000
 青松建化	qkssjmhx	1000000
 青松建化	qkssjmh	1000000
 华鲁恒升	hxluhgug	1000000
@@ -6483,7 +6300,6 @@ ST通葡	tsp	1000000
 华光环能	hxglhrng	1000000
 华光环能	hxglhrn	1000000
 *ST湘邮	xlyz	1000000
-*ST湘邮	xly	1000000
 杭萧钢构	hhxnghgz	1000000
 杭萧钢构	hhxnghg	1000000
 科力远	keliyr	1000000
@@ -6509,7 +6325,6 @@ ST通葡	tsp	1000000
 鹏欣资源	pgxbziyr	1000000
 鹏欣资源	pgxbziy	1000000
 ST龙元	lsyr	1000000
-ST龙元	lsy	1000000
 凤竹纺织	fgvufhvi	1000000
 凤竹纺织	fgvufhv	1000000
 晋西车轴	jbxiievz	1000000
@@ -6567,7 +6382,6 @@ ST龙元	lsy	1000000
 贵航股份	gvhhguff	1000000
 贵航股份	gvhhguf	1000000
 ST长园	vhyr	1000000
-ST长园	vhy	1000000
 菲达环保	fwdahrbc	1000000
 菲达环保	fwdahrb	1000000
 江南高纤	jlnjgcxm	1000000
@@ -6587,7 +6401,6 @@ ST长园	vhy	1000000
 中国软件	vsgorrjm	1000000
 中国软件	vsgorrj	1000000
 *ST亿晶	yijk	1000000
-*ST亿晶	yij	1000000
 国发股份	gofaguff	1000000
 国发股份	gofaguf	1000000
 狮头股份	uitzguff	1000000
@@ -6595,7 +6408,6 @@ ST长园	vhy	1000000
 新赛股份	xbsdguff	1000000
 新赛股份	xbsdguf	1000000
 *ST莫高	mogc	1000000
-*ST莫高	mog	1000000
 卓郎智能	volhving	1000000
 卓郎智能	volhvin	1000000
 山煤国际	ujmwgoji	1000000
@@ -6633,7 +6445,6 @@ ST长园	vhy	1000000
 山鹰国际	ujykgoji	1000000
 山鹰国际	ujykgoj	1000000
 ST中珠	vsvu	1000000
-ST中珠	vsv	1000000
 安阳钢铁	anyhghtp	1000000
 安阳钢铁	anyhght	1000000
 恒生电子	hgugdmzi	1000000
@@ -6657,7 +6468,6 @@ ST中珠	vsv	1000000
 卧龙电驱	wolsdmqu	1000000
 卧龙电驱	wolsdmq	1000000
 *ST八钢	bagh	1000000
-*ST八钢	bag	1000000
 天地科技	tmdikeji	1000000
 天地科技	tmdikej	1000000
 海油工程	hdyzgsig	1000000
@@ -6691,7 +6501,6 @@ ST中珠	vsv	1000000
 北大荒	bwdahl	1000000
 北大荒	bwdah	1000000
 *ST熊猫	xsmc	1000000
-*ST熊猫	xsm	1000000
 青岛啤酒	qkdcpijq	1000000
 青岛啤酒	qkdcpij	1000000
 方正科技	fhvgkeji	1000000
@@ -6707,7 +6516,6 @@ ST中珠	vsv	1000000
 绿地控股	lvdiksgu	1000000
 绿地控股	lvdiksg	1000000
 *ST沪科	huke	1000000
-*ST沪科	huk	1000000
 金杯汽车	jbbwqiie	1000000
 金杯汽车	jbbwqii	1000000
 中毅达	vsyida	1000000
@@ -6737,7 +6545,6 @@ ST中珠	vsv	1000000
 华谊集团	hxyijitr	1000000
 华谊集团	hxyijit	1000000
 ST复华	fuhx	1000000
-ST复华	fuh	1000000
 申达股份	ufdaguff	1000000
 申达股份	ufdaguf	1000000
 新世界	xbuijp	1000000
@@ -6751,7 +6558,6 @@ ST复华	fuh	1000000
 大众公用	davsgsys	1000000
 大众公用	davsgsy	1000000
 *ST国化	gohx	1000000
-*ST国化	goh	1000000
 东方明珠	dsfhmkvu	1000000
 东方明珠	dsfhmkv	1000000
 新黄浦	xbhlpu	1000000
@@ -6817,7 +6623,6 @@ ST复华	fuh	1000000
 交运股份	jnyyguff	1000000
 交运股份	jnyyguf	1000000
 ST金顶	jbdk	1000000
-ST金顶	jbd	1000000
 上海凤凰	uhhdfghl	1000000
 上海凤凰	uhhdfgh	1000000
 百川能源	bdirngyr	1000000
@@ -6847,7 +6652,6 @@ ST金顶	jbd	1000000
 大商股份	dauhguff	1000000
 大商股份	dauhguf	1000000
 *ST岩石	yjui	1000000
-*ST岩石	yju	1000000
 欧亚集团	ouyajitr	1000000
 欧亚集团	ouyajit	1000000
 湖南天雁	hunjtmyj	1000000
@@ -6905,7 +6709,6 @@ XD舍得酒	xduedej	1000000
 重百集团	vsbdjitr	1000000
 重百集团	vsbdjit	1000000
 *ST高科	gcke	1000000
-*ST高科	gck	1000000
 湖南海利	hunjhdli	1000000
 湖南海利	hunjhdl	1000000
 爱旭股份	aixuguff	1000000
@@ -6913,7 +6716,6 @@ XD舍得酒	xduedej	1000000
 北汽蓝谷	bwqiljgu	1000000
 北汽蓝谷	bwqiljg	1000000
 *ST实达	uida	1000000
-*ST实达	uid	1000000
 ST新华锦	xbhxjb	1000000
 ST新华锦	xbhxj	1000000
 苏州高新	suvzgcxb	1000000
@@ -6935,7 +6737,6 @@ ST新华锦	xbhxj	1000000
 华银电力	hxybdmli	1000000
 华银电力	hxybdml	1000000
 *ST闻泰	wftd	1000000
-*ST闻泰	wft	1000000
 江苏索普	jlsusopu	1000000
 江苏索普	jlsusop	1000000
 上实发展	uhuifavj	1000000
@@ -6947,7 +6748,6 @@ ST新华锦	xbhxj	1000000
 海航科技	hdhhkeji	1000000
 海航科技	hdhhkej	1000000
 *ST海钦	hdqb	1000000
-*ST海钦	hdq	1000000
 锦江酒店	jbjljqdm	1000000
 锦江酒店	jbjljqd	1000000
 厦门国贸	xxmfgomc	1000000
@@ -6959,7 +6759,6 @@ ST新华锦	xbhxj	1000000
 辽宁能源	lnnkngyr	1000000
 辽宁能源	lnnkngy	1000000
 ST洲际	vzji	1000000
-ST洲际	vzj	1000000
 XD中航沈	xdvshhuf	1000000
 XD中航沈	xdvshhu	1000000
 安徽合力	anhvheli	1000000
@@ -6987,7 +6786,6 @@ XD中航沈	xdvshhu	1000000
 东方通信	dsfhtsxb	1000000
 东方通信	dsfhtsx	1000000
 *ST新潮	xbic	1000000
-*ST新潮	xbi	1000000
 友好集团	yzhcjitr	1000000
 友好集团	yzhcjit	1000000
 水井坊	uvjkfh	1000000
@@ -7053,7 +6851,6 @@ XD中航沈	xdvshhu	1000000
 宇通重工	yutsvsgs	1000000
 宇通重工	yutsvsg	1000000
 ST中路	vslu	1000000
-ST中路	vsl	1000000
 耀皮玻璃	ycpiboli	1000000
 耀皮玻璃	ycpibol	1000000
 隧道股份	svdcguff	1000000
@@ -7173,9 +6970,7 @@ ST中路	vsl	1000000
 新疆众和	xbjlvshe	1000000
 新疆众和	xbjlvsh	1000000
 *ST京化	jkhx	1000000
-*ST京化	jkh	1000000
 *ST大晟	daig	1000000
-*ST大晟	dai	1000000
 航发动力	hhfadsli	1000000
 航发动力	hhfadsl	1000000
 广日股份	glriguff	1000000
@@ -7247,7 +7042,6 @@ ST中路	vsl	1000000
 岳阳林纸	ytyhlbvi	1000000
 岳阳林纸	ytyhlbv	1000000
 *ST福成	fuig	1000000
-*ST福成	fui	1000000
 博汇纸业	bohvviye	1000000
 博汇纸业	bohvviy	1000000
 内蒙一机	nwmgyiji	1000000
@@ -7325,7 +7119,6 @@ XD唐山港	xdthujg	1000000
 南京银行	njjkybhh	1000000
 南京银行	njjkybh	1000000
 ST文峰	wffg	1000000
-ST文峰	wff	1000000
 宝泰隆	bctdls	1000000
 宝泰隆	bctdl	1000000
 隆基绿能	lsjilvng	1000000
@@ -7619,7 +7412,6 @@ XD四方股	xdsifhg	1000000
 中创智领	vsilvilk	1000000
 中创智领	vsilvil	1000000
 ST际华	jihx	1000000
-ST际华	jih	1000000
 上海电气	uhhddmqi	1000000
 上海电气	uhhddmq	1000000
 中国电信	vsgodmxb	1000000
@@ -7797,7 +7589,6 @@ ST喜临门	xilbm	1000000
 爱普股份	aipuguff	1000000
 爱普股份	aipuguf	1000000
 *ST华鹏	hxpg	1000000
-*ST华鹏	hxp	1000000
 新通联	xbtslm	1000000
 新通联	xbtsl	1000000
 威帝股份	wwdiguff	1000000
@@ -8071,7 +7862,6 @@ XD如通股	xdrutsg	1000000
 亚邦股份	yabhguff	1000000
 亚邦股份	yabhguf	1000000
 *ST网达	whda	1000000
-*ST网达	whd	1000000
 亚通精工	yatsjkgs	1000000
 亚通精工	yatsjkg	1000000
 望变电气	whbmdmqi	1000000
@@ -8181,7 +7971,6 @@ XD如通股	xdrutsg	1000000
 合盛硅业	heuggvye	1000000
 合盛硅业	heuggvy	1000000
 *ST立航	lihh	1000000
-*ST立航	lih	1000000
 技源集团	jiyrjitr	1000000
 技源集团	jiyrjit	1000000
 天龙股份	tmlsguff	1000000
@@ -8197,7 +7986,6 @@ XD如通股	xdrutsg	1000000
 永杰新材	ysjpxbcd	1000000
 永杰新材	ysjpxbc	1000000
 *ST联翔	lmxl	1000000
-*ST联翔	lmx	1000000
 天元智能	tmyrving	1000000
 天元智能	tmyrvin	1000000
 众辰科技	vsifkeji	1000000
@@ -8341,7 +8129,6 @@ XD如通股	xdrutsg	1000000
 华达科技	hxdakeji	1000000
 华达科技	hxdakej	1000000
 *ST东珠	dsvu	1000000
-*ST东珠	dsv	1000000
 百傲化学	bdaohxxt	1000000
 百傲化学	bdaohxx	1000000
 傲农生物	aonsugwu	1000000
@@ -8365,9 +8152,7 @@ XD如通股	xdrutsg	1000000
 大明电子	damkdmzi	1000000
 大明电子	damkdmz	1000000
 ST东时	dsui	1000000
-ST东时	dsu	1000000
 *ST亚士	yaui	1000000
-*ST亚士	yau	1000000
 三美股份	sjmwguff	1000000
 三美股份	sjmwguf	1000000
 易德龙	yidels	1000000
@@ -8385,7 +8170,6 @@ ST东时	dsu	1000000
 基蛋生物	jidjugwu	1000000
 基蛋生物	jidjugw	1000000
 *ST亚振	yavf	1000000
-*ST亚振	yav	1000000
 通达电气	tsdadmqi	1000000
 通达电气	tsdadmq	1000000
 力聚热能	lijureng	1000000
@@ -8399,7 +8183,6 @@ ST东时	dsu	1000000
 金辰股份	jbifguff	1000000
 金辰股份	jbifguf	1000000
 *ST沐邦	mubh	1000000
-*ST沐邦	mub	1000000
 永杉锂业	ysujliye	1000000
 永杉锂业	ysujliy	1000000
 华之杰	hxvijp	1000000
@@ -8421,7 +8204,6 @@ ST东时	dsu	1000000
 鼎信通讯	dkxbtsxy	1000000
 鼎信通讯	dkxbtsx	1000000
 *ST集友	jiyz	1000000
-*ST集友	jiy	1000000
 C嘉德	cjxde	1000000
 C嘉德	cjxd	1000000
 三力制药	sjliviyc	1000000
@@ -8467,7 +8249,6 @@ C嘉德	cjxd	1000000
 淳中科技	iyvskeji	1000000
 淳中科技	iyvskej	1000000
 ST绝味	jtww	1000000
-ST绝味	jtw	1000000
 锦泓集团	jbhsjitr	1000000
 锦泓集团	jbhsjit	1000000
 立霸股份	libaguff	1000000
@@ -8495,11 +8276,9 @@ ST绝味	jtw	1000000
 海兴电力	hdxkdmli	1000000
 海兴电力	hdxkdml	1000000
 *ST起步	qibu	1000000
-*ST起步	qib	1000000
 健盛集团	jmugjitr	1000000
 健盛集团	jmugjit	1000000
 ST通脉	tsmd	1000000
-ST通脉	tsm	1000000
 中谷物流	vsguwulq	1000000
 中谷物流	vsguwul	1000000
 普莱柯	puldke	1000000
@@ -8517,7 +8296,6 @@ ST通脉	tsm	1000000
 荣泰健康	rstdjmkh	1000000
 荣泰健康	rstdjmk	1000000
 *ST艾艾	aiai	1000000
-*ST艾艾	aia	1000000
 捷昌驱动	jpihquds	1000000
 捷昌驱动	jpihqud	1000000
 苏利股份	suliguff	1000000
@@ -8533,7 +8311,6 @@ ST通脉	tsm	1000000
 康辰药业	khifycye	1000000
 康辰药业	khifycy	1000000
 ST东尼	dsni	1000000
-ST东尼	dsn	1000000
 伯特利	boteli	1000000
 伯特利	botel	1000000
 引力传媒	ybliirmw	1000000
@@ -8687,11 +8464,9 @@ XD密尔克	xdmierk	1000000
 天域生物	tmyuugwu	1000000
 天域生物	tmyuugw	1000000
 *ST海利	hdli	1000000
-*ST海利	hdl	1000000
 良品铺子	llpbpuzi	1000000
 良品铺子	llpbpuz	1000000
 *ST天择	tmze	1000000
-*ST天择	tmz	1000000
 阿科力	aakeli	1000000
 阿科力	aakel	1000000
 天安新材	tmanxbcd	1000000
@@ -8703,7 +8478,6 @@ XD密尔克	xdmierk	1000000
 鸣志电器	mkvidmqi	1000000
 鸣志电器	mkvidmq	1000000
 ST龙韵	lsyy	1000000
-ST龙韵	lsy	1000000
 岱美股份	ddmwguff	1000000
 岱美股份	ddmwguf	1000000
 仙鹤股份	xmheguff	1000000
@@ -8745,7 +8519,6 @@ ST龙韵	lsy	1000000
 宁波高发	nkbogcfa	1000000
 宁波高发	nkbogcf	1000000
 ST星农	xkns	1000000
-ST星农	xkn	1000000
 雅运股份	yayyguff	1000000
 雅运股份	yayyguf	1000000
 联泰环保	lmtdhrbc	1000000
@@ -8771,7 +8544,6 @@ XD福斯特	xdfusit	1000000
 诚意药业	igyiycye	1000000
 诚意药业	igyiycy	1000000
 *ST原尚	yruh	1000000
-*ST原尚	yru	1000000
 交建股份	jnjmguff	1000000
 交建股份	jnjmguf	1000000
 顾家家居	gujxjxju	1000000
@@ -8783,15 +8555,12 @@ XD福斯特	xdfusit	1000000
 神力股份	ufliguff	1000000
 神力股份	ufliguf	1000000
 ST嘉澳	jxao	1000000
-ST嘉澳	jxa	1000000
 百合花	bdhehx	1000000
 百合花	bdheh	1000000
 ST华扬	hxyh	1000000
-ST华扬	hxy	1000000
 坤彩科技	kycdkeji	1000000
 坤彩科技	kycdkej	1000000
 *ST利达	lida	1000000
-*ST利达	lid	1000000
 洛凯股份	lokdguff	1000000
 洛凯股份	lokdguf	1000000
 欧派家居	oupdjxju	1000000
@@ -8799,11 +8568,9 @@ ST华扬	hxy	1000000
 海程邦达	hdigbhda	1000000
 海程邦达	hdigbhd	1000000
 *ST四通	sits	1000000
-*ST四通	sit	1000000
 安正时尚	anvguiuh	1000000
 安正时尚	anvguiu	1000000
 *ST正平	vgpk	1000000
-*ST正平	vgp	1000000
 好太太	hctdtd	1000000
 好太太	hctdt	1000000
 华荣股份	hxrsguff	1000000
@@ -8827,7 +8594,6 @@ ST华扬	hxy	1000000
 飞科电器	fwkedmqi	1000000
 飞科电器	fwkedmq	1000000
 ST智知	vivi	1000000
-ST智知	viv	1000000
 嘉友国际	jxyzgoji	1000000
 嘉友国际	jxyzgoj	1000000
 鼎胜新材	dkugxbcd	1000000
@@ -8931,7 +8697,6 @@ ST金鸿顺	jbhsu	1000000
 哈森股份	hasfguff	1000000
 哈森股份	hasfguf	1000000
 ST百利	bdli	1000000
-ST百利	bdl	1000000
 克来机电	keldjidm	1000000
 克来机电	keldjid	1000000
 DR法兰泰	drfaljtd	1000000
@@ -9031,7 +8796,6 @@ XD洛阳钼	xdloyhm	1000000
 浙江自然	vejlzirj	1000000
 浙江自然	vejlzir	1000000
 *ST太和	tdhe	1000000
-*ST太和	tdh	1000000
 龙高股份	lsgcguff	1000000
 龙高股份	lsgcguf	1000000
 冠盛股份	grugguff	1000000
@@ -9153,7 +8917,6 @@ ST葫芦娃	huluw	1000000
 沪光股份	huglguff	1000000
 沪光股份	huglguf	1000000
 *ST帅电	ukdm	1000000
-*ST帅电	ukd	1000000
 李子园	liziyr	1000000
 李子园	liziy	1000000
 巴比食品	babiuipb	1000000
@@ -9251,7 +9014,6 @@ DR长龄液	drvhlky	1000000
 奥福科技	aofukeji	1000000
 奥福科技	aofukej	1000000
 ST瀚川	hjir	1000000
-ST瀚川	hji	1000000
 安恒信息	anhgxbxi	1000000
 安恒信息	anhgxbx	1000000
 杰普特	jppute	1000000
@@ -9271,7 +9033,6 @@ ST瀚川	hji	1000000
 禾迈股份	hemdguff	1000000
 禾迈股份	hemdguf	1000000
 *ST天宜	tmyi	1000000
-*ST天宜	tmy	1000000
 德邦科技	debhkeji	1000000
 德邦科技	debhkej	1000000
 传音控股	irybksgu	1000000
@@ -9323,7 +9084,6 @@ XD派能科	xdpdngk	1000000
 凯赛生物	kdsdugwu	1000000
 凯赛生物	kdsdugw	1000000
 *ST航图	hhtu	1000000
-*ST航图	hht	1000000
 爱威科技	aiwwkeji	1000000
 爱威科技	aiwwkej	1000000
 热景生物	rejkugwu	1000000
@@ -9341,7 +9101,6 @@ XD派能科	xdpdngk	1000000
 安旭生物	anxuugwu	1000000
 安旭生物	anxuugw	1000000
 ST诺泰	notd	1000000
-ST诺泰	not	1000000
 大地熊	dadixs	1000000
 大地熊	dadix	1000000
 龙软科技	lsrrkeji	1000000
@@ -9531,7 +9290,6 @@ ST诺泰	not	1000000
 生益电子	ugyidmzi	1000000
 生益电子	ugyidmz	1000000
 ST帕瓦	pawa	1000000
-ST帕瓦	paw	1000000
 康希诺	khxino	1000000
 康希诺	khxin	1000000
 广大特材	gldatecd	1000000
@@ -9563,7 +9321,6 @@ ST帕瓦	paw	1000000
 华峰测控	hxfgceks	1000000
 华峰测控	hxfgcek	1000000
 ST信安	xban	1000000
-ST信安	xba	1000000
 美迪西	mwdixi	1000000
 美迪西	mwdix	1000000
 海正生材	hdvgugcd	1000000
@@ -9677,7 +9434,6 @@ ST信安	xba	1000000
 凯立新材	kdlixbcd	1000000
 凯立新材	kdlixbc	1000000
 ST臻镭	vflw	1000000
-ST臻镭	vfl	1000000
 联影医疗	lmykyiln	1000000
 联影医疗	lmykyil	1000000
 富吉瑞	fujirv	1000000
@@ -9985,7 +9741,6 @@ ST臻镭	vfl	1000000
 XR三未信	xrsjwwxb	1000000
 XR三未信	xrsjwwx	1000000
 *ST清越	qkyt	1000000
-*ST清越	qky	1000000
 源杰科技	yrjpkeji	1000000
 源杰科技	yrjpkej	1000000
 利元亨	liyrhg	1000000
@@ -10191,7 +9946,6 @@ XD正帆科	xdvgfjk	1000000
 阳光诺和	yhglnohe	1000000
 阳光诺和	yhglnoh	1000000
 *ST禾信	hexb	1000000
-*ST禾信	hex	1000000
 双元科技	ulyrkeji	1000000
 双元科技	ulyrkej	1000000
 呈和科技	ighekeji	1000000
@@ -10219,7 +9973,6 @@ N长进	nvhj	1000000
 华恒生物	hxhgugwu	1000000
 华恒生物	hxhgugw	1000000
 ST逸飞	yifw	1000000
-ST逸飞	yif	1000000
 中邮科技	vsyzkeji	1000000
 中邮科技	vsyzkej	1000000
 盛邦安全	ugbhanqr	1000000

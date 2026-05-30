@@ -140,10 +140,12 @@ import_tables:
         weight = "1000000"
         
         if mode == 'flypy':
-            # 小鹤双拼模式：保留双拼全码和全码去末位
+            # 小鹤双拼模式：保留双拼全码
+            # 只有当编码长度大于 4 位（3字词及以上）时，才生成“去末位”的兼容项
+            # 1-2字词（<=4位）去末位容易造成冲突，故跳过
             if full:
                 entries.append(f"{name}\t{full}\t{weight}")
-                if len(full) > 1:
+                if len(full) > 4:
                     entries.append(f"{name}\t{full[:-1]}\t{weight}")
         else:
             # 全拼模式：只保留简拼和全拼
