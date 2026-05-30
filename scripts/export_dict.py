@@ -64,8 +64,9 @@ def generate_pinyin_variants(name, mode='full'):
     # 处理全角 A-Z
     clean_name = clean_name.translate(str.maketrans('ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺ', 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'))
     
-    # 进一步清理用于拼音生成的名称（去除 *ST 等非中文前缀）
-    pinyin_name = re.sub(r'[*STst0-9]+', '', clean_name).strip()
+    # 进一步清理用于拼音生成的名称（去除 *ST 等非中文前缀，以及末尾的 A/B）
+    pinyin_name = re.sub(r'[*STst0-9]+', '', clean_name)
+    pinyin_name = re.sub(r'[ABab]$', '', pinyin_name).strip()
     
     if not pinyin_name:
         return "", ""
@@ -135,16 +136,21 @@ import_tables:
         # 生成拼音变体
         full, initials = generate_pinyin_variants(name, mode=mode)
         
+        # 使用高权重确保匹配项排在第一位
+        weight = "1000000"
+        
         if mode == 'flypy':
-            # 小鹤双拼模式：只保留双拼全码
+            # 小鹤双拼模式：保留双拼全码和全码去末位
             if full:
-                entries.append(f"{name}\t{full}")
+                entries.append(f"{name}\t{full}\t{weight}")
+                if len(full) > 1:
+                    entries.append(f"{name}\t{full[:-1]}\t{weight}")
         else:
             # 全拼模式：只保留简拼和全拼
             if initials:
-                entries.append(f"{name}\t{initials}")
+                entries.append(f"{name}\t{initials}\t{weight}")
             if full:
-                entries.append(f"{name}\t{full}")
+                entries.append(f"{name}\t{full}\t{weight}")
 
     # 去重并保持顺序
     seen = set()
